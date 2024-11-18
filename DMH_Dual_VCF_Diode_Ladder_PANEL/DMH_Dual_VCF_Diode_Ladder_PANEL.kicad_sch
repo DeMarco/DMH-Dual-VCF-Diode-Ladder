@@ -829,6 +829,12 @@
 		(uuid "044c5172-566b-4c39-83ce-861a6ba342a2")
 	)
 	(junction
+		(at 25.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0befbfb4-c0a1-4f48-878f-34bb1dcfeb6a")
+	)
+	(junction
 		(at 27.94 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1218,6 +1224,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 54.61) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369568f4-a98c-413f-9b3f-9b5b35e3f81a")
+	)
+	(wire
+		(pts
 			(xy 25.4 170.18) (xy 25.4 179.07)
 		)
 		(stroke
@@ -1305,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "46a7ece7-bd93-4f7e-9336-160dfefea841")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 25.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b72024-bc4b-4039-b1f2-6c6654af020f")
 	)
 	(wire
 		(pts
@@ -1735,6 +1761,16 @@
 			(type default)
 		)
 		(uuid "c2281091-1be2-412a-a832-2a7bbad4251e")
+	)
+	(wire
+		(pts
+			(xy 25.4 63.5) (xy 25.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61101c0-8391-4589-b406-7f85647b3380")
 	)
 	(wire
 		(pts
@@ -2547,6 +2583,81 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 101.6 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce3ae48-3a0b-4d1a-810e-e96ad745e773")
+		(property "Reference" "H43"
+			(at 104.14 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutoff"
+			(at 104.14 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Huge_v2"
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 104.14 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Function" ""
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85fba7d7-6e41-4bdd-b2b5-c1a2745d8e87")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 31.75 175.26 0)
@@ -2872,7 +2983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Large_v2"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -4541,7 +4652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Large_v2"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
 			(at 146.05 90.17 0)
 			(effects
 				(font
