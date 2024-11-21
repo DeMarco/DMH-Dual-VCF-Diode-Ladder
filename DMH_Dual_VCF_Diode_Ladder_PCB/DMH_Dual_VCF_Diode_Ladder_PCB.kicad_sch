@@ -1,0 +1,369 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "58f4306d-5387-4983-bb08-41a2313fd315")
+	(paper "A4")
+	(title_block
+		(rev "1")
+		(company "DMH Instruments")
+		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 127 101.6)
+		(uuid "04bf58f4-d0cb-4d6d-973a-58f6aa426678")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c1840c-53b4-480d-99c2-f2ed4519ab5d")
+	)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324b8cae-5d1a-49fe-9e0c-7bdf9e11d16b")
+	)
+	(wire
+		(pts
+			(xy 38.1 96.52) (xy 63.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ce6f2a-15e5-42e0-86af-0da6eff49995")
+	)
+	(wire
+		(pts
+			(xy 50.8 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a0cdb6-5713-4c46-a9db-b5ca633cbd7e")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a6bf40-a75c-4e48-a05d-185c2cfa6f34")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 63.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2c2844-05ab-4694-97da-584c4be0f990")
+	)
+	(wire
+		(pts
+			(xy 38.1 107.95) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a077c9-58e4-4ba9-9606-f4c8c26b88d6")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31a9ace-d0af-4e3f-976c-eb0cc1ad79de")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 63.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b58330-17a0-4fa6-8e7e-632d3fc940a2")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3367d1-8b4b-4cd7-8703-c75786932bb6")
+	)
+	(sheet
+		(at 127 82.55)
+		(size 20.32 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
+		(property "Sheetname" "Power"
+			(at 127 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 127 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Bus Gate" output
+			(at 127 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35434339-bc2b-4868-9a18-95483283b276")
+		)
+		(pin "Bus CV" output
+			(at 127 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
+		)
+		(instances
+			(project "DMH_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 82.55)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
+		(property "Sheetname" "Core Circuit"
+			(at 63.5 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core_Circuit.kicad_sch"
+			(at 63.5 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Output" output
+			(at 63.5 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ac4b1a4-34c1-4db4-980a-cb367d4c33e2")
+		)
+		(pin "(Bus) CV2 Input" input
+			(at 63.5 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f497ce2-a7b5-4eb9-be19-fa780e08f7be")
+		)
+		(pin "CV3 Input" input
+			(at 63.5 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad4f86bb-aa0b-4ec5-bc19-2ab647732030")
+		)
+		(pin "Input" input
+			(at 63.5 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d751bb9-bc86-4e9e-b126-7a702b24f8d2")
+		)
+		(pin "CV1 Input" input
+			(at 63.5 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "175109e4-230e-4690-8776-c6860ac07aeb")
+		)
+		(instances
+			(project "DMH_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 82.55)
+		(size 20.32 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
+		(property "Sheetname" "Inputs and Outputs"
+			(at 17.78 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
+			(at 17.78 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Output Jack" input
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47d6f700-19ac-440c-a9bd-0184205b1d14")
+		)
+		(pin "Input Jack" output
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1cfb4b1-5a54-4286-ba01-f85047d51a10")
+		)
+		(pin "CV 1 Jack" output
+			(at 38.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a5cdf2a-d250-44b0-a6fb-6b8952b38724")
+		)
+		(pin "CV 2 Jack" output
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "371c4516-13c1-4a0f-8a4f-05e2b95ce388")
+		)
+		(pin "CV 3 Jack" output
+			(at 38.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9a6071c-bf2c-48ab-8517-dacace690546")
+		)
+		(pin "Bus CV In" input
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d121c4e-e9a7-4af9-a69f-ce3834d19cc0")
+		)
+		(instances
+			(project "DMH_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
