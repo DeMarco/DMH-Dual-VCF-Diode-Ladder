@@ -2459,7 +2459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 3"
+		(property "Value" "Res CV"
 			(at 72.39 203.1999 0)
 			(effects
 				(font
@@ -2753,7 +2753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 3 Amt"
+		(property "Value" "Res CV Amt"
 			(at 173.99 126.9999 0)
 			(effects
 				(font
@@ -2983,7 +2983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Medium_v2"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -3116,7 +3116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 3 Amt"
+		(property "Value" "Res CV Amt"
 			(at 85.09 126.9999 0)
 			(effects
 				(font
@@ -4221,7 +4221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "(Bus) CV 2 Amt"
+		(property "Value" "CV 2 Amt"
 			(at 59.69 126.9999 0)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "(Bus) CV 2 Amt"
+		(property "Value" "CV 2 Amt"
 			(at 148.59 126.9999 0)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 3"
+		(property "Value" "Res CV"
 			(at 161.29 203.1999 0)
 			(effects
 				(font
@@ -4652,7 +4652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Medium_v2"
 			(at 146.05 90.17 0)
 			(effects
 				(font

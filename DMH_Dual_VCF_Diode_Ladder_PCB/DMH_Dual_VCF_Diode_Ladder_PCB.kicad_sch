@@ -166,7 +166,7 @@
 			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -255,7 +255,7 @@
 			(uuid "175109e4-230e-4690-8776-c6860ac07aeb")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -354,7 +354,7 @@
 			(uuid "1d121c4e-e9a7-4af9-a69f-ce3834d19cc0")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
