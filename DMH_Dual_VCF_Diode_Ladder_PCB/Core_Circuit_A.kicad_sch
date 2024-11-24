@@ -4147,7 +4147,7 @@
 			(uuid "553b8c2c-be73-4ce8-8f5a-1a61b486627e")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R9")
 					(unit 1)
@@ -4213,7 +4213,7 @@
 			(uuid "686e07ce-c59d-4f79-b4e9-b74b3f2f8ba3")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR027")
 					(unit 1)
@@ -4289,7 +4289,7 @@
 			(uuid "7229cbc6-6de7-44da-ba96-df989cf7f02c")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C12")
 					(unit 1)
@@ -4357,7 +4357,7 @@
 			(uuid "6b03d8ee-b11c-4219-8612-151a93a53da9")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R2")
 					(unit 1)
@@ -4425,7 +4425,7 @@
 			(uuid "95425857-1fbb-4311-b1dd-b3a77e1f5616")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R24")
 					(unit 1)
@@ -4495,7 +4495,7 @@
 			(uuid "c8252500-4573-40b0-bc83-33ab1e6227af")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R6")
 					(unit 1)
@@ -4573,7 +4573,7 @@
 			(uuid "e6ae831e-ea8f-4dbc-8def-6b453be20993")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R17")
 					(unit 1)
@@ -4641,7 +4641,7 @@
 			(uuid "9021f4fc-b424-4a23-91ab-eee5f041e337")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R15")
 					(unit 1)
@@ -4707,7 +4707,7 @@
 			(uuid "f423b29b-06e3-4745-8814-c894a910aec2")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR033")
 					(unit 1)
@@ -4773,7 +4773,7 @@
 			(uuid "83718b11-706a-4eae-9d3b-b269402203cf")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR021")
 					(unit 1)
@@ -4849,7 +4849,7 @@
 			(uuid "a84c3829-d094-44e8-aadd-1aa329cbb193")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C13")
 					(unit 1)
@@ -4925,7 +4925,7 @@
 			(uuid "3d97b4b1-b8e8-4f3d-bab6-39315fc8a5dd")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R7")
 					(unit 1)
@@ -4993,7 +4993,7 @@
 			(uuid "80570625-fafe-4716-b72e-d93acc6496ea")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C7")
 					(unit 1)
@@ -5059,7 +5059,7 @@
 			(uuid "e5abf734-03e2-427a-8a99-d3cdc9a8e9b6")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR023")
 					(unit 1)
@@ -5135,7 +5135,7 @@
 			(uuid "98ae53e8-2ab0-425d-b0eb-e8d93ae1d5ae")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C11")
 					(unit 1)
@@ -5217,7 +5217,7 @@
 			(uuid "4352a668-9fff-4a6c-8ca3-68822659aa7d")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "SW1")
 					(unit 1)
@@ -5287,7 +5287,7 @@
 			(uuid "487e60ae-2616-4236-8255-3983634f3749")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R1")
 					(unit 1)
@@ -5371,7 +5371,7 @@
 			(uuid "3736fd36-767d-4403-b22c-88b893f9d231")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV2")
 					(unit 1)
@@ -5445,7 +5445,7 @@
 			(uuid "911a0b04-a004-41e1-bd12-9e48bcd7dd8d")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "SW5")
 					(unit 1)
@@ -5550,7 +5550,7 @@
 			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff5e")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 3)
@@ -5616,7 +5616,7 @@
 			(uuid "3096c451-9baa-4253-a86a-b0325a97b00b")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR025")
 					(unit 1)
@@ -5692,7 +5692,7 @@
 			(uuid "6c11a049-d004-4bed-9f62-112aacbd7b1f")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C10")
 					(unit 1)
@@ -5795,7 +5795,7 @@
 			(uuid "943e9e0d-bd0a-4fa3-b4ea-1c096c8df1bf")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U2")
 					(unit 1)
@@ -5863,7 +5863,7 @@
 			(uuid "f10fe410-eba3-4274-b8af-29b576362bec")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R4")
 					(unit 1)
@@ -5949,7 +5949,7 @@
 			(uuid "be329902-4338-4a6a-93ed-ab1fe46900f9")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D14")
 					(unit 1)
@@ -6017,7 +6017,7 @@
 			(uuid "b6991a9b-7aeb-443f-89eb-24899b0eea33")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R10")
 					(unit 1)
@@ -6087,7 +6087,7 @@
 			(uuid "d225be8c-6d04-4933-85c7-221548bdee1f")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R12")
 					(unit 1)
@@ -6175,7 +6175,7 @@
 			(uuid "1e73c9be-22be-468d-ab8b-f8ae87d1cd72")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D7")
 					(unit 1)
@@ -6241,7 +6241,7 @@
 			(uuid "e4de4a96-f5d9-4c69-a7d8-604616deac57")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR022")
 					(unit 1)
@@ -6322,7 +6322,7 @@
 			(uuid "5ccbfa57-d10f-4fd2-ae82-3b8f1f4b42f3")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV6")
 					(unit 1)
@@ -6426,7 +6426,7 @@
 			(uuid "b81cd30c-0f84-4cad-84ce-c71ac80a2ecb")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U2")
 					(unit 4)
@@ -6494,7 +6494,7 @@
 			(uuid "c7b2fd0b-932e-49de-b8dd-75b10dddcf9c")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R11")
 					(unit 1)
@@ -6560,7 +6560,7 @@
 			(uuid "ced57449-a7fb-4213-995e-cc678df5db71")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR034")
 					(unit 1)
@@ -6644,7 +6644,7 @@
 			(uuid "93d0e99a-d632-43ec-9a7a-5416dd88a010")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV1")
 					(unit 1)
@@ -6725,7 +6725,7 @@
 			(uuid "41639b29-64d5-456c-a447-c21e6bca8be8")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "SW2")
 					(unit 1)
@@ -6793,7 +6793,7 @@
 			(uuid "aa39a295-e1d8-4ee4-9bc6-43cd72ef64b3")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R8")
 					(unit 1)
@@ -6879,7 +6879,7 @@
 			(uuid "3a6f536b-6f8d-4af6-a3ad-5e7200e54fd2")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D6")
 					(unit 1)
@@ -6944,7 +6944,7 @@
 			(uuid "996da2f2-527a-4286-81e1-ea49cc76e061")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR035")
 					(unit 1)
@@ -7048,7 +7048,7 @@
 			(uuid "b81cd30c-0f84-4cad-84ce-c71ac80a2ecc")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U2")
 					(unit 3)
@@ -7136,7 +7136,7 @@
 			(uuid "2d27bd41-734f-4645-9228-899407ca813c")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D11")
 					(unit 1)
@@ -7202,7 +7202,7 @@
 			(uuid "e6968ca1-087b-464b-aa25-dc87f3361d2d")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR029")
 					(unit 1)
@@ -7270,7 +7270,7 @@
 			(uuid "c0dd9453-0cd6-47b5-a0f6-65e7c97e36df")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R19")
 					(unit 1)
@@ -7358,7 +7358,7 @@
 			(uuid "e0d8a036-8af1-403d-9dbe-bc4e7d437c9b")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D8")
 					(unit 1)
@@ -7434,7 +7434,7 @@
 			(uuid "122e7803-80fb-4bb0-828a-28f87b8768e7")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C14")
 					(unit 1)
@@ -7500,7 +7500,7 @@
 			(uuid "ab881f45-fcf4-408b-a166-0fc2553714e1")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR019")
 					(unit 1)
@@ -7584,7 +7584,7 @@
 			(uuid "7078aee9-ba1d-41a9-a177-a2c4de40abb4")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV4")
 					(unit 1)
@@ -7662,7 +7662,7 @@
 			(uuid "5701b58a-cc15-4b37-9bac-859fa29e1920")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R22")
 					(unit 1)
@@ -7727,7 +7727,7 @@
 			(uuid "1d42e529-cf67-4c16-b0c1-1705d3540772")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR030")
 					(unit 1)
@@ -7813,7 +7813,7 @@
 			(uuid "020a1e3a-f4db-4c38-86f9-0cbfe68f640b")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D13")
 					(unit 1)
@@ -7881,7 +7881,7 @@
 			(uuid "550417b8-3c9a-40aa-839b-551af2cae3c0")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R13")
 					(unit 1)
@@ -7969,7 +7969,7 @@
 			(uuid "928d88ec-c553-45ef-b079-d53b0c3974cf")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D12")
 					(unit 1)
@@ -8035,7 +8035,7 @@
 			(uuid "1fede136-c633-468b-8ad4-e0d01d4707ec")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR024")
 					(unit 1)
@@ -8103,7 +8103,7 @@
 			(uuid "ffc2f766-3f86-4445-98d8-266ac234348b")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C15")
 					(unit 1)
@@ -8187,7 +8187,7 @@
 			(uuid "cca44858-32d0-4e7e-bb30-8255b4a6a11b")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV3")
 					(unit 1)
@@ -8253,7 +8253,7 @@
 			(uuid "de3f79f4-6f90-4fac-9ac4-a8ffb8f8e72a")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR032")
 					(unit 1)
@@ -8319,7 +8319,7 @@
 			(uuid "1e92dd85-6a2c-440a-a1d1-4e0a50f224cf")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR031")
 					(unit 1)
@@ -8385,7 +8385,7 @@
 			(uuid "89e2c18c-ff38-48d7-b0a6-c1d196f5df7c")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR026")
 					(unit 1)
@@ -8489,7 +8489,7 @@
 			(uuid "862ef906-03e6-4f92-b36b-5a6f63363423")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U2")
 					(unit 2)
@@ -8573,7 +8573,7 @@
 			(uuid "0ca58115-65f3-42d8-a451-8585aa85e5e9")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV5")
 					(unit 1)
@@ -8641,7 +8641,7 @@
 			(uuid "36f3c3c8-8bac-4245-b8c3-4044bd636e04")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R18")
 					(unit 1)
@@ -8746,7 +8746,7 @@
 			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff5f")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 2)
@@ -8827,7 +8827,7 @@
 			(uuid "40b746c3-5dbe-4bad-b9b2-36e2a9e9a4fa")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "SW3")
 					(unit 1)
@@ -8895,7 +8895,7 @@
 			(uuid "63e30666-49f5-40a8-97c9-b8c18dfe9ee4")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R16")
 					(unit 1)
@@ -8961,7 +8961,7 @@
 			(uuid "b43dadc0-1b44-43ea-afe4-dc572e7fdb4d")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR020")
 					(unit 1)
@@ -9029,7 +9029,7 @@
 			(uuid "6b3a9ee0-67ca-4912-84f1-484654b7b04b")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R3")
 					(unit 1)
@@ -9097,7 +9097,7 @@
 			(uuid "59300178-2856-42ac-9292-ee25abc2af85")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R5")
 					(unit 1)
@@ -9185,7 +9185,7 @@
 			(uuid "adb8125f-9fca-4c26-862b-06258b90fd99")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D9")
 					(unit 1)
@@ -9253,7 +9253,7 @@
 			(uuid "7a32d720-3862-4f49-a4cc-e95270871204")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R21")
 					(unit 1)
@@ -9358,7 +9358,7 @@
 			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff60")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 4)
@@ -9426,7 +9426,7 @@
 			(uuid "43f6c0f8-f00c-4184-b279-a6f6f2a34405")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R14")
 					(unit 1)
@@ -9492,7 +9492,7 @@
 			(uuid "2f91be31-6023-4522-9145-18693ef1b98f")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR036")
 					(unit 1)
@@ -9558,7 +9558,7 @@
 			(uuid "3cddc451-10e1-4fbf-9086-494915ae4816")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR028")
 					(unit 1)
@@ -9646,7 +9646,7 @@
 			(uuid "7ab3c13c-0247-4ca4-8795-ad7638d5b6e1")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D10")
 					(unit 1)
@@ -9714,7 +9714,7 @@
 			(uuid "5c602612-afd9-4400-8c67-20b015b3c3f1")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R23")
 					(unit 1)
@@ -9782,7 +9782,7 @@
 			(uuid "c0f8c1bf-2647-461a-bdfd-6316be8afb5e")
 		)
 		(instances
-			(project "DMH_VCF_Diode_Ladder_PCB"
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R20")
 					(unit 1)
@@ -9887,7 +9887,7 @@
 			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff61")
 		)
 		(instances
-			(project ""
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 1)
