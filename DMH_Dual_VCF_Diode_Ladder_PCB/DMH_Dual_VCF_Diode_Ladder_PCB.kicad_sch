@@ -11,12 +11,12 @@
 	)
 	(lib_symbols)
 	(no_connect
-		(at 127 69.85)
+		(at 162.56 69.85)
 		(uuid "04bf58f4-d0cb-4d6d-973a-58f6aa426678")
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 127 82.55)
+			(xy 114.3 82.55) (xy 162.56 82.55)
 		)
 		(stroke
 			(width 0)
@@ -115,7 +115,7 @@
 		(uuid "c9b58330-17a0-4fa6-8e7e-632d3fc940a2")
 	)
 	(sheet
-		(at 127 50.8)
+		(at 162.56 50.8)
 		(size 20.32 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -127,7 +127,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 127 50.0884 0)
+			(at 162.56 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 127 89.4846 0)
+			(at 162.56 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +146,7 @@
 			)
 		)
 		(pin "Bus Gate" output
-			(at 127 69.85 180)
+			(at 162.56 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			(uuid "35434339-bc2b-4868-9a18-95483283b276")
 		)
 		(pin "Bus CV" output
-			(at 127 82.55 180)
+			(at 162.56 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,6 +268,45 @@
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 101.6)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad5c5475-8483-41b0-97cc-617422d54799")
+		(property "Sheetname" "Resonance CV"
+			(at 114.3 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Resonance_CV.kicad_sch"
+			(at 114.3 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "7")
 				)
 			)
 		)
