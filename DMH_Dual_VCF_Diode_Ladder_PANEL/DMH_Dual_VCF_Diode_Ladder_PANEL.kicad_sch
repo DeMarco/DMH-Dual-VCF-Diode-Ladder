@@ -91,108 +91,6 @@
 				)
 			)
 		)
-		(symbol "MountingHole_ToggleSwitch_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Function"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Toggle Switch Mounting Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "mounting hole toggle switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_ToggleSwitch_1_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_ToggleSwitch_1_1_1"
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SynthStuff:MountingHole_Jack6.35mm_Output_v2"
 			(pin_numbers hide)
 			(pin_names
@@ -400,7 +298,7 @@
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim yes)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)
@@ -580,6 +478,108 @@
 			(symbol "MountingHole_Rails_1_1"
 				(pin input line
 					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_ToggleSwitch"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Function"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toggle Switch Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_1_1"
+				(pin input line
+					(at 0 -3.81 90)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2009,7 +2009,6 @@
 		(uuid "ff662d57-7f3c-4b7f-ad38-7631574cb7f5")
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 120.65 148.59 0)
 		(unit 1)
@@ -2156,7 +2155,7 @@
 		(at 120.65 102.87 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2290,7 +2289,7 @@
 		(at 82.55 102.87 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2357,7 +2356,7 @@
 		(at 120.65 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2641,7 +2640,7 @@
 		(at 101.6 52.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2712,7 +2711,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 31.75 175.26 0)
 		(unit 1)
@@ -2793,7 +2791,7 @@
 		(at 171.45 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2864,7 +2862,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 31.75 148.59 0)
 		(unit 1)
@@ -2941,7 +2938,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 97.79 223.52 0)
 		(unit 1)
@@ -3022,7 +3018,7 @@
 		(at 57.15 90.17 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3097,7 +3093,7 @@
 		(at 31.75 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3172,7 +3168,7 @@
 		(at 82.55 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3509,7 +3505,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 31.75 157.48 0)
 		(unit 1)
@@ -3864,7 +3859,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 120.65 166.37 0)
 		(unit 1)
@@ -4013,7 +4007,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 97.79 236.22 0)
 		(unit 1)
@@ -4362,7 +4355,7 @@
 		(at 57.15 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4433,7 +4426,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 120.65 157.48 0)
 		(unit 1)
@@ -4514,7 +4506,7 @@
 		(at 171.45 102.87 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4577,7 +4569,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 31.75 166.37 0)
 		(unit 1)
@@ -4658,7 +4649,7 @@
 		(at 146.05 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4800,7 +4791,7 @@
 		(at 146.05 90.17 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4942,7 +4933,7 @@
 		(at 31.75 102.87 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5285,7 +5276,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_ToggleSwitch_1")
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 120.65 175.26 0)
 		(unit 1)

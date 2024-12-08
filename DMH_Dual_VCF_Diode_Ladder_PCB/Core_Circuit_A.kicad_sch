@@ -7480,7 +7480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 38.1 160.02 0)
 			(effects
 				(font
@@ -8083,7 +8083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 38.1 134.62 0)
 			(effects
 				(font
@@ -8469,7 +8469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 266.7 64.77 0)
 			(effects
 				(font
