@@ -687,7 +687,15 @@
     ],
     [
       "ad5c5475-8483-41b0-97cc-617422d54799",
-      "Resonance CV"
+      "Resonance A CV"
+    ],
+    [
+      "f0045393-e1d0-4de8-baba-b9053cd8a11d",
+      "Resonance B CV"
+    ],
+    [
+      "5770dcd3-eb9e-472f-b743-1e3eb22ed082",
+      "Core Circuit B"
     ]
   ],
   "text_variables": {}
