@@ -2379,7 +2379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
 			(at 120.65 128.27 0)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
 			(at 171.45 128.27 0)
 			(effects
 				(font
@@ -3116,7 +3116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
 			(at 31.75 128.27 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
 			(at 82.55 128.27 0)
 			(effects
 				(font
@@ -4378,7 +4378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
 			(at 57.15 128.27 0)
 			(effects
 				(font
@@ -4672,7 +4672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv_P110KH1"
 			(at 146.05 128.27 0)
 			(effects
 				(font
