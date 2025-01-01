@@ -803,6 +803,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SynthStuff:Eurorack_Power_Connector_16Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1952,6 +2122,12 @@
 		)
 	)
 	(junction
+		(at 114.3 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08387e03-4d2e-4ace-8fc8-13a5f1806991")
+	)
+	(junction
 		(at 63.5 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2088,6 +2264,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7cde36c-5884-4020-b6d1-6e4ed8af6536")
+	)
+	(junction
+		(at 82.55 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc44ce7-072e-42bc-83e6-b0cfe0352a19")
 	)
 	(junction
 		(at 88.9 146.05)
@@ -2255,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 186.69) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31caaa35-8417-4673-8ca5-df3286c8d5b9")
+	)
+	(wire
+		(pts
 			(xy 63.5 101.6) (xy 76.2 101.6)
 		)
 		(stroke
@@ -2325,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 177.8) (xy 120.65 177.8)
+			(xy 109.22 177.8) (xy 114.3 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2385,6 +2577,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 186.69) (xy 82.55 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baaf04f-20ea-4fe6-9f91-863041f283fa")
+	)
+	(wire
+		(pts
 			(xy 88.9 101.6) (xy 88.9 113.03)
 		)
 		(stroke
@@ -2402,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "64004ccf-069f-4b9e-a728-76da94fcf864")
+	)
+	(wire
+		(pts
+			(xy 91.44 186.69) (xy 114.3 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a7287e-adfa-4448-85d7-97f3738c08bb")
 	)
 	(wire
 		(pts
@@ -2425,6 +2637,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 180.34) (xy 91.44 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0055bb-17cf-4143-9ed2-2b2666dd3902")
+	)
+	(wire
+		(pts
 			(xy 21.59 95.25) (xy 34.29 95.25)
 		)
 		(stroke
@@ -2435,7 +2657,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 190.5) (xy 36.83 190.5)
+			(xy 82.55 175.26) (xy 93.98 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe4dd26-d5ed-415b-82f0-d7edbf1c1832")
+	)
+	(wire
+		(pts
+			(xy 34.29 190.5) (xy 76.2 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2585,6 +2817,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 190.5) (xy 76.2 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98224868-b13a-489d-86e3-3a6ec8639388")
+	)
+	(wire
+		(pts
 			(xy 16.51 165.1) (xy 34.29 165.1)
 		)
 		(stroke
@@ -2715,6 +2957,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 175.26) (xy 82.55 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf1409a-cd24-48bd-bc81-75481340ed4e")
+	)
+	(wire
+		(pts
+			(xy 91.44 180.34) (xy 91.44 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3176764-cc45-443e-95f9-00071869f2c4")
+	)
+	(wire
+		(pts
 			(xy 101.6 139.7) (xy 88.9 139.7)
 		)
 		(stroke
@@ -2722,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "c4c49ef3-60e9-4de8-9a93-ffcd0aff560e")
+	)
+	(wire
+		(pts
+			(xy 82.55 175.26) (xy 82.55 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53809ad-d27b-4063-9161-c614475a82da")
 	)
 	(wire
 		(pts
@@ -2953,6 +3225,16 @@
 		)
 		(uuid "fa0427d2-73f5-4ea8-8184-305df39bd5f0")
 	)
+	(wire
+		(pts
+			(xy 114.3 177.8) (xy 119.38 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaaaea0-7732-44b1-9954-2e53410b6241")
+	)
 	(hierarchical_label "Bus Gate"
 		(shape output)
 		(at 36.83 193.04 0)
@@ -2967,7 +3249,7 @@
 	)
 	(hierarchical_label "Bus CV"
 		(shape output)
-		(at 120.65 177.8 0)
+		(at 119.38 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3772,6 +4054,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b3de44-6bff-421a-a20e-bd746937665d")
+		(property "Reference" "#PWR073"
+			(at 82.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef90980e-28ab-465b-a3be-57c5a02bd3a6")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 133.35 0)
 		(unit 1)
@@ -4313,6 +4661,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 82.55 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a5de97-a853-46f5-9537-07dd8ded93d7")
+		(property "Reference" "R89"
+			(at 85.09 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5M"
+			(at 85.09 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 83.566 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d568e87-a349-4363-8256-b756ef32f6ca")
+		)
+		(pin "1"
+			(uuid "f2f84085-db85-41a9-8ba6-119e15839140")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 60.96 120.65 0)
 		(mirror y)
@@ -4427,7 +4845,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e43f3c99-83f3-4ad1-891b-58bb942dd99e")
 		(property "Reference" "U3"
 			(at 101.6 167.64 0)

@@ -681,7 +681,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ec2d44bc-ed06-4f0b-a22e-df640fa5e089")
-		(property "Sheetname" "Bridge"
+		(property "Sheetname" "CV Processing"
 			(at 63.5 88.1884 0)
 			(effects
 				(font
@@ -690,7 +690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Bridge.kicad_sch"
+		(property "Sheetfile" "CV_Processing.kicad_sch"
 			(at 63.5 114.8846 0)
 			(effects
 				(font
