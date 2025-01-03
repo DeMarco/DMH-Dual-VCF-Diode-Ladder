@@ -10,8 +10,38 @@
 		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
+	(junction
+		(at 43.18 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de5a080-de60-4eda-88e9-5677100f4335")
+	)
+	(junction
+		(at 48.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa351a77-2c89-49c4-9e80-d0458a76b66e")
+	)
+	(junction
+		(at 114.3 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b35c6de3-4853-446a-bcd2-482cba78e6f3")
+	)
+	(junction
+		(at 40.64 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e081943e-48bf-436d-b59e-23bf6b697645")
+	)
+	(junction
+		(at 45.72 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed1d559f-c73c-40e1-8939-15a287acfe99")
+	)
 	(no_connect
-		(at 162.56 69.85)
+		(at 165.1 95.25)
 		(uuid "04bf58f4-d0cb-4d6d-973a-58f6aa426678")
 	)
 	(wire
@@ -26,6 +56,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 52.07) (xy 45.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0550aea1-cf90-40fd-a9e5-01824d8e2812")
+	)
+	(wire
+		(pts
 			(xy 106.68 175.26) (xy 106.68 137.16)
 		)
 		(stroke
@@ -33,6 +73,16 @@
 			(type default)
 		)
 		(uuid "0c98e710-5377-4b53-84e2-a1ada2fe23d9")
+	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 48.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e21f989-4a6f-4ad8-b4b0-e98c25d65a6e")
 	)
 	(wire
 		(pts
@@ -46,6 +96,36 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 99.06) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1996e4a8-15ba-44f6-9762-c634f6f341a4")
+	)
+	(wire
+		(pts
+			(xy 54.61 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2338548e-9cac-48c3-8b5a-6f4456d48a61")
+	)
+	(wire
+		(pts
+			(xy 38.1 138.43) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2476c132-dfd1-4212-9cdc-ca994c11ec35")
+	)
+	(wire
+		(pts
 			(xy 88.9 22.86) (xy 110.49 22.86)
 		)
 		(stroke
@@ -56,7 +136,27 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 44.45) (xy 63.5 44.45)
+			(xy 50.8 104.14) (xy 63.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca61cb3-89fc-4211-8bab-a9ce57a7848d")
+	)
+	(wire
+		(pts
+			(xy 48.26 156.21) (xy 48.26 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304d950d-9e07-404a-827d-2053f3c12824")
+	)
+	(wire
+		(pts
+			(xy 38.1 44.45) (xy 40.64 44.45)
 		)
 		(stroke
 			(width 0)
@@ -66,13 +166,53 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 52.07) (xy 63.5 52.07)
+			(xy 50.8 140.97) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43ce6f2a-15e5-42e0-86af-0da6eff49995")
+		(uuid "348bf90b-931f-49ac-aaf0-98a702e704f9")
+	)
+	(wire
+		(pts
+			(xy 38.1 130.81) (xy 40.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4165991e-8691-4629-a9a9-25265f39565b")
+	)
+	(wire
+		(pts
+			(xy 63.5 111.76) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44596757-23bb-4dd7-a031-7f1d487eefce")
+	)
+	(wire
+		(pts
+			(xy 40.64 44.45) (xy 63.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f62e36-7409-4509-8f94-70479ded7897")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bb55a3-66f6-4441-9be4-db00cad7ed9b")
 	)
 	(wire
 		(pts
@@ -86,13 +226,83 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 63.5 69.85)
+			(xy 38.1 140.97) (xy 50.8 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6785308a-a17a-4281-8369-3fe06382ab1f")
+		(uuid "52f6b78d-88bb-45cf-8470-e30f85598c40")
+	)
+	(wire
+		(pts
+			(xy 101.6 107.95) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59307c3d-dcd3-45a3-a89c-c8dfe1e28d28")
+	)
+	(wire
+		(pts
+			(xy 38.1 161.29) (xy 63.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614704a3-2a5c-4305-87fa-0bb5aad2000b")
+	)
+	(wire
+		(pts
+			(xy 38.1 156.21) (xy 48.26 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cce7bf-02b7-44bf-84c3-6ec9ef5779ab")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ac6820-f6b3-44d9-a60a-a1751b18f673")
+	)
+	(wire
+		(pts
+			(xy 43.18 138.43) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1b34ba-70b9-4d7a-b6aa-244711174ae4")
+	)
+	(wire
+		(pts
+			(xy 58.42 138.43) (xy 63.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e502f40-196c-4783-9414-1458add9c7db")
+	)
+	(wire
+		(pts
+			(xy 54.61 107.95) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cf4047-30c6-4d2d-8275-6291b2a23cb2")
 	)
 	(wire
 		(pts
@@ -106,17 +316,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 82.55) (xy 162.56 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a0cdb6-5713-4c46-a9db-b5ca633cbd7e")
-	)
-	(wire
-		(pts
-			(xy 44.45 55.88) (xy 44.45 22.86)
+			(xy 48.26 55.88) (xy 48.26 22.86)
 		)
 		(stroke
 			(width 0)
@@ -126,7 +326,37 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 22.86) (xy 63.5 22.86)
+			(xy 58.42 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b984f4b-3832-4d2f-a347-cfb879d5bbfa")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 40.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c67312e-a7b9-491f-93a7-586428d9a887")
+	)
+	(wire
+		(pts
+			(xy 48.26 153.67) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f230e29-7877-45af-a14c-1af0eb8bfeb5")
+	)
+	(wire
+		(pts
+			(xy 48.26 22.86) (xy 63.5 22.86)
 		)
 		(stroke
 			(width 0)
@@ -143,6 +373,26 @@
 			(type default)
 		)
 		(uuid "a0bc58f4-c3f0-47d8-a7aa-4265b99c9aef")
+	)
+	(wire
+		(pts
+			(xy 50.8 52.07) (xy 50.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e853da-e6e8-41a7-a472-ad8269cdff68")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 58.42 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86114a5-785b-4d00-8ce1-ebd71d5adc8d")
 	)
 	(wire
 		(pts
@@ -166,13 +416,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 63.5 48.26)
+			(xy 45.72 146.05) (xy 45.72 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af2c2844-05ab-4694-97da-584c4be0f990")
+		(uuid "adc13cb9-8eef-4aa3-a056-32ae621edc07")
 	)
 	(wire
 		(pts
@@ -206,23 +456,53 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 59.69 82.55)
+			(xy 54.61 148.59) (xy 54.61 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c31a9ace-d0af-4e3f-976c-eb0cc1ad79de")
+		(uuid "b968b247-f848-44a7-b3c9-95abd0fbfcb7")
 	)
 	(wire
 		(pts
-			(xy 38.1 55.88) (xy 44.45 55.88)
+			(xy 43.18 48.26) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a5f561-285a-477b-965c-b83739afc6c6")
+	)
+	(wire
+		(pts
+			(xy 38.1 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4e571cf-28d8-45dd-80c6-4c8345e57075")
+	)
+	(wire
+		(pts
+			(xy 45.72 52.07) (xy 50.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca337fcb-a893-49b3-858c-dcb550954430")
+	)
+	(wire
+		(pts
+			(xy 48.26 175.26) (xy 63.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda59166-0eb5-46ff-9483-b2232e5d1304")
 	)
 	(wire
 		(pts
@@ -234,9 +514,89 @@
 		)
 		(uuid "d7ec01b7-4f76-4119-a2a7-a1cf4aa42ad8")
 	)
+	(wire
+		(pts
+			(xy 38.1 146.05) (xy 45.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3236775-7913-4c78-8a9b-3d2b6a30ba2a")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.35) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f2cc9c-d999-4c21-9203-d103c177b048")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a32f58-b3a0-40c0-ba65-9af7718e9251")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0994f05-cfde-44c9-92b1-9136128ae546")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42b7fe7-3520-45a5-b3c5-ea7067c084c2")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79986e2-05a4-4aea-9db1-583cb845d357")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 54.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81e302c-3c80-47e0-b707-f312f0058aad")
+	)
+	(wire
+		(pts
+			(xy 38.1 148.59) (xy 54.61 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86a074d-1590-4035-8e93-4e8918466838")
+	)
 	(sheet
-		(at 162.56 50.8)
-		(size 20.32 38.1)
+		(at 165.1 88.9)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -247,7 +607,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 162.56 50.0884 0)
+			(at 165.1 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +616,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 162.56 89.4846 0)
+			(at 165.1 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,7 +626,7 @@
 			)
 		)
 		(pin "Bus Gate" output
-			(at 162.56 69.85 180)
+			(at 165.1 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +636,7 @@
 			(uuid "35434339-bc2b-4868-9a18-95483283b276")
 		)
 		(pin "Bus CV" output
-			(at 162.56 82.55 180)
+			(at 165.1 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +685,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 63.5 152.4 180)
+			(at 63.5 161.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,16 +693,6 @@
 				(justify left)
 			)
 			(uuid "824ef3c1-8d70-4ca7-882a-a32dfb81527f")
-		)
-		(pin "CV2 Input" input
-			(at 63.5 140.97 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "efdb8da9-08ea-40b3-beb6-9200f7501a2e")
 		)
 		(pin "Input" input
 			(at 63.5 133.35 180)
@@ -353,26 +703,6 @@
 				(justify left)
 			)
 			(uuid "bcef8807-861a-4d95-b13b-d41a91dc844c")
-		)
-		(pin "CV1 Input" input
-			(at 63.5 137.16 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4a2d842e-d953-4334-aa4e-73f47b55ef59")
-		)
-		(pin "Bus CV Input" input
-			(at 63.5 158.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ce702e9e-e316-4fc8-a29b-27e920c963c7")
 		)
 		(pin "Res Input" input
 			(at 101.6 137.16 0)
@@ -393,6 +723,16 @@
 				(justify right)
 			)
 			(uuid "4832c5e1-a160-43b2-a24e-b935623ff9d1")
+		)
+		(pin "CV" input
+			(at 63.5 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "859a537d-346b-4852-840d-d21ccb349166")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
@@ -443,16 +783,6 @@
 			)
 			(uuid "2ac4b1a4-34c1-4db4-980a-cb367d4c33e2")
 		)
-		(pin "CV2 Input" input
-			(at 63.5 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0f497ce2-a7b5-4eb9-be19-fa780e08f7be")
-		)
 		(pin "Input" input
 			(at 63.5 44.45 180)
 			(effects
@@ -462,26 +792,6 @@
 				(justify left)
 			)
 			(uuid "3d751bb9-bc86-4e9e-b126-7a702b24f8d2")
-		)
-		(pin "CV1 Input" input
-			(at 63.5 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "175109e4-230e-4690-8776-c6860ac07aeb")
-		)
-		(pin "Bus CV Input" input
-			(at 63.5 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dc5f0619-2c25-4a4c-ab9b-243af8830109")
 		)
 		(pin "Res Input" input
 			(at 101.6 48.26 0)
@@ -502,6 +812,16 @@
 				(justify right)
 			)
 			(uuid "50835797-2993-4f04-8087-d43d338e1667")
+		)
+		(pin "CV" input
+			(at 63.5 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14a92ebc-2d16-4e2d-a395-2b6edd22de99")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
@@ -671,7 +991,7 @@
 	)
 	(sheet
 		(at 63.5 88.9)
-		(size 25.4 25.4)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -699,6 +1019,86 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "CV A" output
+			(at 63.5 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c8ec3db-a5bb-4825-b2f3-ed08c540010e")
+		)
+		(pin "Bus CV B Input" input
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25a4c279-1af3-457a-b902-203740473df8")
+		)
+		(pin "CV1 B Input" input
+			(at 63.5 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "849669a4-586a-4144-aaaf-708d4277edda")
+		)
+		(pin "CV2 B Input" input
+			(at 63.5 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2446d5b8-c527-42a6-82e3-afe03ec6bcdf")
+		)
+		(pin "CV1 A Input" input
+			(at 63.5 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7fee05fc-ab9e-4f56-8220-ff4043829c09")
+		)
+		(pin "Bus CV A Input" input
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7d90f38-4baf-4ed5-8a4b-7ef971b22eda")
+		)
+		(pin "CV2 A Input" input
+			(at 63.5 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "888b3a4b-ebdb-40ac-8a64-6ded6ede7a04")
+		)
+		(pin "CV B" output
+			(at 63.5 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f467a192-7288-4e8c-874c-f6053d58a5dc")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
@@ -779,7 +1179,7 @@
 	)
 	(sheet
 		(at 17.8605 127.0805)
-		(size 20.32 38.1)
+		(size 20.2395 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -808,95 +1208,95 @@
 				(hide yes)
 			)
 		)
-		(pin "Output Jack" input
-			(at 38.1805 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "87a8e3f7-d088-4e63-874b-ed6f1196d12b")
-		)
-		(pin "Input Jack" output
-			(at 38.1805 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "99a7a101-e7c1-4ae4-b21b-56e534426e07")
-		)
-		(pin "CV 1 Jack" output
-			(at 38.1805 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b858bec2-b63a-49c2-9480-8cdc20121286")
-		)
 		(pin "CV 2 Jack" output
-			(at 38.1805 146.05 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f7f8f091-fcf8-4ccb-8cd8-7d982720903f")
+			(uuid "5cbf7505-96bc-4bc5-89db-ef9d6841d143")
+		)
+		(pin "Output Jack" input
+			(at 38.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2544ea5a-6255-4365-9174-3f9d2181590e")
 		)
 		(pin "Res CV Jack" output
-			(at 38.1805 153.67 0)
+			(at 38.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0ce4c5ec-4f3c-44ef-8deb-2ecd3ecfb876")
+			(uuid "423173dc-79e1-4ab9-97dc-7e7997659c01")
+		)
+		(pin "Input Jack" output
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de6662d5-25b4-4fed-869a-febe2813a33e")
+		)
+		(pin "CV 1 Jack" output
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be565046-9944-48b8-9878-6b783a3c655a")
 		)
 		(pin "Input TN" input
-			(at 38.1805 133.35 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3138933-7f09-4e3d-aaed-81828359a34c")
+			(uuid "0f1800c1-7acd-4145-abf8-d38e60b9ff68")
 		)
 		(pin "CV1 TN" input
-			(at 38.1805 140.97 0)
+			(at 38.1 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c183b196-e131-497c-91c8-29ccb385339a")
+			(uuid "afa8bfe7-3410-470c-803d-0c4e641f6065")
 		)
 		(pin "CV2 TN" input
-			(at 38.1805 148.59 0)
+			(at 38.1 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7ffd1d4d-1fa8-4aeb-9281-3f315bebe013")
+			(uuid "16ea75c7-0728-4437-ace9-eb9a006d6731")
 		)
 		(pin "Res CV TN" input
-			(at 38.1805 156.21 0)
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6076cdcf-4cad-4b2c-b6bf-3e37887ec296")
+			(uuid "16466809-61b0-4623-9987-b064c02cedda")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
