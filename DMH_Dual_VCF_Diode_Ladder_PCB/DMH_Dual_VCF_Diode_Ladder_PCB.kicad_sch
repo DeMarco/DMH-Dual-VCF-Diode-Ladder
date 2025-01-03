@@ -29,12 +29,6 @@
 		(uuid "b35c6de3-4853-446a-bcd2-482cba78e6f3")
 	)
 	(junction
-		(at 40.64 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e081943e-48bf-436d-b59e-23bf6b697645")
-	)
-	(junction
 		(at 45.72 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -83,6 +77,16 @@
 			(type default)
 		)
 		(uuid "0e21f989-4a6f-4ad8-b4b0-e98c25d65a6e")
+	)
+	(wire
+		(pts
+			(xy 38.1 130.81) (xy 40.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f12e6f1-fa7c-4bc2-9068-f7e2997dbcfd")
 	)
 	(wire
 		(pts
@@ -156,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 44.45) (xy 40.64 44.45)
+			(xy 38.1 44.45) (xy 63.5 44.45)
 		)
 		(stroke
 			(width 0)
@@ -176,16 +180,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 130.81) (xy 40.64 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4165991e-8691-4629-a9a9-25265f39565b")
-	)
-	(wire
-		(pts
 			(xy 63.5 111.76) (xy 58.42 111.76)
 		)
 		(stroke
@@ -193,16 +187,6 @@
 			(type default)
 		)
 		(uuid "44596757-23bb-4dd7-a031-7f1d487eefce")
-	)
-	(wire
-		(pts
-			(xy 40.64 44.45) (xy 63.5 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45f62e36-7409-4509-8f94-70479ded7897")
 	)
 	(wire
 		(pts
@@ -233,6 +217,16 @@
 			(type default)
 		)
 		(uuid "52f6b78d-88bb-45cf-8470-e30f85598c40")
+	)
+	(wire
+		(pts
+			(xy 40.64 71.12) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58096cba-d478-461c-b106-b0797ab1d8ad")
 	)
 	(wire
 		(pts
@@ -333,16 +327,6 @@
 			(type default)
 		)
 		(uuid "9b984f4b-3832-4d2f-a347-cfb879d5bbfa")
-	)
-	(wire
-		(pts
-			(xy 40.64 130.81) (xy 40.64 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c67312e-a7b9-491f-93a7-586428d9a887")
 	)
 	(wire
 		(pts
@@ -503,6 +487,16 @@
 			(type default)
 		)
 		(uuid "cda59166-0eb5-46ff-9483-b2232e5d1304")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 40.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffa52b3-5a4c-4e58-b937-256ef753a084")
 	)
 	(wire
 		(pts
@@ -737,7 +731,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
@@ -981,6 +975,16 @@
 			)
 			(uuid "c9a6071c-bf2c-48ab-8517-dacace690546")
 		)
+		(pin "Feed Switch" output
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba140d83-99f0-45de-ab8f-bb3cb864d84b")
+		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
@@ -1090,7 +1094,7 @@
 			)
 			(uuid "888b3a4b-ebdb-40ac-8a64-6ded6ede7a04")
 		)
-		(pin "CV B" output
+		(pin "Link Switch" output
 			(at 63.5 111.76 180)
 			(effects
 				(font
@@ -1098,7 +1102,7 @@
 				)
 				(justify left)
 			)
-			(uuid "f467a192-7288-4e8c-874c-f6053d58a5dc")
+			(uuid "122885cd-c4d5-4a4a-8bab-9a984b057435")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
@@ -1172,7 +1176,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
