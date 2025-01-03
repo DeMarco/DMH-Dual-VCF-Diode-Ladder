@@ -4551,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE"
 			(at 135.89 86.36 0)
 			(effects
 				(font
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE"
 			(at 85.09 60.96 0)
 			(effects
 				(font
@@ -7465,7 +7465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE"
 			(at 135.89 99.06 0)
 			(effects
 				(font

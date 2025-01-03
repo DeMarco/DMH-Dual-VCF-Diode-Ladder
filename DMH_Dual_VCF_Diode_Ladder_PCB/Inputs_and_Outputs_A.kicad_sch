@@ -2891,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE"
 			(at 171.45 143.51 0)
 			(effects
 				(font

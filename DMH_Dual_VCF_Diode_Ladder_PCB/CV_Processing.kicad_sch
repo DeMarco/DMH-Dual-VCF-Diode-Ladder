@@ -946,6 +946,179 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SynthStuff:Switch_DPDT"
 			(pin_names
 				(offset 0) hide)
@@ -968,7 +1141,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+			(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1271,324 +1444,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SynthStuff:Switch_SP3T"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Switch_SP3T_APEM5244"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.875 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.rs-online.com/9882/0900766b80032e26.pdf"
-				(at 0 -11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Toggle Switch, three position, single pole triple throw in DPDT casing"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Function" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-						(italic yes)
-					)
-				)
-			)
-			(property "ki_keywords" "switch sp3t ON-ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW* SP3T*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Switch_SP3T_0_1"
-				(circle
-					(center -2.54 3.81)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 2.54) (xy 0 2.54) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Switch_SP3T_1_0"
-				(pin passive line
-					(at -2.54 6.35 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 6.35 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Switch_SP3T_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2121,24 +1976,6 @@
 		(color 0 0 0 0)
 		(uuid "f99e2b27-41a9-4301-989f-136dae2095af")
 	)
-	(no_connect
-		(at 85.09 243.84)
-		(uuid "c062d502-d92a-419a-80d1-0a754077b6aa")
-	)
-	(no_connect
-		(at 85.09 116.84)
-		(uuid "c656988b-727e-4fe7-bb5a-adb957828930")
-	)
-	(wire
-		(pts
-			(xy 90.17 123.19) (xy 92.71 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "036096c0-7c48-4e35-ae7d-432a6991be16")
-	)
 	(wire
 		(pts
 			(xy 88.9 69.85) (xy 100.33 69.85)
@@ -2231,16 +2068,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 250.19) (xy 92.71 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a20f17e-25f4-4582-abbd-e2eab9ec6af0")
-	)
-	(wire
-		(pts
 			(xy 35.56 187.96) (xy 38.1 187.96)
 		)
 		(stroke
@@ -2248,6 +2075,16 @@
 			(type default)
 		)
 		(uuid "0bccb7a3-6921-472d-8004-819f238e23f3")
+	)
+	(wire
+		(pts
+			(xy 76.2 116.84) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c490db1-01a9-44e4-afb6-c34036e7a336")
 	)
 	(wire
 		(pts
@@ -2461,16 +2298,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 120.65) (xy 90.17 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c895246-0751-495f-8bc1-0688cccaf2ae")
-	)
-	(wire
-		(pts
 			(xy 190.5 158.75) (xy 190.5 167.64)
 		)
 		(stroke
@@ -2571,16 +2398,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 92.71 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8b0d6b-5459-4d47-ab64-31d3182270f6")
-	)
-	(wire
-		(pts
 			(xy 38.1 60.96) (xy 40.64 60.96)
 		)
 		(stroke
@@ -2591,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 241.3) (xy 85.09 241.3)
+			(xy 76.2 243.84) (xy 85.09 243.84)
 		)
 		(stroke
 			(width 0)
@@ -2951,16 +2768,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 250.19) (xy 92.71 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f1a08e-345a-4995-a28d-814966000cac")
-	)
-	(wire
-		(pts
 			(xy 96.52 88.9) (xy 100.33 88.9)
 		)
 		(stroke
@@ -3241,16 +3048,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 247.65) (xy 90.17 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0581af7-6a21-40eb-a7a4-e8be6a6f97b7")
-	)
-	(wire
-		(pts
 			(xy 119.38 78.74) (xy 121.92 78.74)
 		)
 		(stroke
@@ -3361,16 +3158,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 85.09 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b12e70c6-fe3d-46b1-90da-cbd9a341bd82")
-	)
-	(wire
-		(pts
 			(xy 101.6 165.1) (xy 104.14 165.1)
 		)
 		(stroke
@@ -3411,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 241.3) (xy 76.2 250.19)
+			(xy 76.2 243.84) (xy 76.2 250.19)
 		)
 		(stroke
 			(width 0)
@@ -3541,6 +3328,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 116.84) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb889e10-b6cb-480e-8126-22ecaecbaf6f")
+	)
+	(wire
+		(pts
 			(xy 160.02 137.16) (xy 152.4 137.16)
 		)
 		(stroke
@@ -3628,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "dd2224d8-a91e-407b-8e50-4196dea76224")
-	)
-	(wire
-		(pts
-			(xy 76.2 114.3) (xy 76.2 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd42f96d-53db-4c22-a57b-7f307475a75a")
 	)
 	(wire
 		(pts
@@ -5396,6 +5183,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 90.17 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e02eac6-319f-449b-b7f7-15012cfc41c7")
+		(property "Reference" "SW7"
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_OnOffOn"
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE"
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Bus CV Amt"
+			(at 90.424 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e1f5d79-d13e-4a9d-911a-bf7c9523bbb4")
+		)
+		(pin "3"
+			(uuid "886a6f84-0b52-4461-b8fb-3c42f7d5f682")
+		)
+		(pin "1"
+			(uuid "25089c94-2096-4f93-a209-ef3e8036c05e")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 63.5 177.8 90)
 		(unit 1)
@@ -5935,6 +5803,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 90.17 241.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7666e2ca-b150-4a0c-ab02-9be4c351d443")
+		(property "Reference" "SW9"
+			(at 90.17 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_OnOffOn"
+			(at 90.17 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE"
+			(at 90.17 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 90.17 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Bus CV Amt"
+			(at 90.424 248.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f766d355-17e1-430b-b534-70fc3c917772")
+		)
+		(pin "3"
+			(uuid "5e357bad-a341-4ba4-acba-df3167b9556a")
+		)
+		(pin "1"
+			(uuid "e3282542-f6b7-4696-83e2-a1cbb953fb46")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 69.85 128.27 0)
 		(mirror x)
@@ -6164,96 +6113,6 @@
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
 					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Switch_SP3T")
-		(at 90.17 241.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87c46060-9ba2-41e1-afd2-2e2537f738db")
-		(property "Reference" "SW9"
-			(at 90.17 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Switch_SP3T_APEM5244"
-			(at 105.41 244.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 245.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.rs-online.com/9882/0900766b80032e26.pdf"
-			(at 90.17 230.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Toggle Switch, three position, single pole triple throw in DPDT casing"
-			(at 90.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 90.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95c18d4b-b9a5-40dd-8489-64be00eb4fd9")
-		)
-		(pin "4"
-			(uuid "268217d9-90e4-44ef-ae81-f5c0c7a82851")
-		)
-		(pin "3"
-			(uuid "298f13f2-03cf-4228-9a37-b06202e272c6")
-		)
-		(pin "2"
-			(uuid "961133b5-49cb-4613-9b40-d3a0419506fa")
-		)
-		(pin "5"
-			(uuid "6de92924-eca4-4ca6-8c4e-5ce6fbe99f73")
-		)
-		(pin "6"
-			(uuid "a4bdb34d-6132-453b-ac47-1f39e905fec6")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -8377,96 +8236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:Switch_SP3T")
-		(at 90.17 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa290021-2855-49ad-85fe-69600f6fd09b")
-		(property "Reference" "SW7"
-			(at 90.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Switch_SP3T_APEM5244"
-			(at 105.41 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.rs-online.com/9882/0900766b80032e26.pdf"
-			(at 90.17 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Toggle Switch, three position, single pole triple throw in DPDT casing"
-			(at 90.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 90.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c18b8552-1e08-40ff-9f52-6ec27321d1c0")
-		)
-		(pin "4"
-			(uuid "e1d090ef-bc50-4096-a630-caa32fda01f2")
-		)
-		(pin "3"
-			(uuid "5a6ac862-a210-4409-b030-c9bdfa5e8e23")
-		)
-		(pin "2"
-			(uuid "10d0bba8-bc51-4965-8996-b20189ba480d")
-		)
-		(pin "5"
-			(uuid "90eb2402-ec77-4b90-a3e2-c7396f657e50")
-		)
-		(pin "6"
-			(uuid "1026c51e-d143-44e8-9f03-533fca83dc81")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 107.95 241.3 270)
 		(unit 1)
@@ -8552,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT"
+		(property "Value" "SW_DPDT_OnOn"
 			(at 165.1 133.35 0)
 			(effects
 				(font
@@ -8560,7 +8329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -8585,6 +8354,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"

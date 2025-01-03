@@ -519,7 +519,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2035,7 +2035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -2737,7 +2737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 31.75 175.26 0)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 31.75 148.59 0)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 97.79 223.52 0)
 			(effects
 				(font
@@ -3531,7 +3531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 31.75 157.48 0)
 			(effects
 				(font
@@ -3885,7 +3885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 120.65 166.37 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 97.79 236.22 0)
 			(effects
 				(font
@@ -4452,7 +4452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -4595,7 +4595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 31.75 166.37 0)
 			(effects
 				(font
@@ -5302,7 +5302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 120.65 175.26 0)
 			(effects
 				(font
