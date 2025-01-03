@@ -4142,7 +4142,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a30cb098-b49c-4be8-9645-93e4656c50b8")
 		(property "Reference" "RV22"
@@ -4750,7 +4750,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "de3b33e3-47cf-4188-9d8a-1ccf8daa1ea9")
 		(property "Reference" "RV20"
