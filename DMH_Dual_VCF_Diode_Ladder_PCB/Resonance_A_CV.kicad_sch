@@ -2507,6 +2507,18 @@
 		)
 		(uuid "f9a50a74-c704-45ce-954e-e782fc272b3f")
 	)
+	(hierarchical_label "Output"
+		(shape output)
+		(at 266.7 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a8ae8b9-04a8-4900-a6ed-b274e83d54d7")
+	)
 	(hierarchical_label "Res CV Input"
 		(shape input)
 		(at 54.61 86.36 180)
@@ -2517,7 +2529,7 @@
 			)
 			(justify right)
 		)
-		(uuid "236db90c-e6e4-4c01-b433-829c7dd4a4b4")
+		(uuid "cc17163e-9208-44cf-9992-a45352ddd4e5")
 	)
 	(hierarchical_label "Input"
 		(shape input)
@@ -2529,202 +2541,20 @@
 			)
 			(justify right)
 		)
-		(uuid "3252de80-422e-4ff0-a35f-a38c3bc1682f")
-	)
-	(hierarchical_label "Output"
-		(shape output)
-		(at 266.7 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf417a39-05d8-4fb2-b432-966aa310990f")
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 95.25 88.9 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b9c9058-383f-4215-9f95-76ecb10194f5")
-		(property "Reference" "U3"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 95.25 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 96.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 95.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d712")
-		)
-		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda641")
-		)
-		(pin "7"
-			(uuid "6e93219f-e6fc-4b7f-a4f2-12ce3eea850b")
-		)
-		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f6")
-		)
-		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289e")
-		)
-		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0c")
-		)
-		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef1")
-		)
-		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f6")
-		)
-		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a3")
-		)
-		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a849")
-		)
-		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ee")
-		)
-		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3527")
-		)
-		(pin "6"
-			(uuid "571866e6-8a45-4008-aecf-b33764bfe234")
-		)
-		(pin "5"
-			(uuid "a3bfff12-dbdb-4ca9-bfb8-eee425d545da")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 222.25 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10f1bcd9-12d8-491d-a2ff-0cba824ba44e")
-		(property "Reference" "#PWR040"
-			(at 222.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 222.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 222.25 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e62967e-84e0-45ee-9265-d233f78ef740")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ea081437-e4be-40c4-bc38-f4d169d9509f")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 69.85 0)
+		(at 203.2 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14e11ffa-a0e0-468a-9d1d-91cdde505a29")
-		(property "Reference" "#PWR012"
-			(at 222.25 76.2 0)
+		(uuid "0055e29f-b926-4b13-850f-6e63308668bb")
+		(property "Reference" "#PWR061"
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 74.93 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 69.85 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 69.85 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 69.85 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,78 +2598,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "25082ff8-93ab-4d27-a181-65d306335d40")
+			(uuid "dc27c75f-1606-40d3-823d-c00bf9748878")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19a4fb1b-a4fc-43a1-80d5-4d85c165b6df")
-		(property "Reference" "#PWR043"
-			(at 101.6 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52b26ba9-f386-4406-b169-4eed94b49717")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR043")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2847,24 +2611,24 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 209.55 57.15 270)
-		(mirror x)
+		(at 138.43 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c215269-8a65-4352-a753-bffe9e23778d")
-		(property "Reference" "R34"
-			(at 209.55 63.5 90)
+		(fields_autoplaced yes)
+		(uuid "07036744-3671-4b61-9cf6-1a73907f54d5")
+		(property "Reference" "R66"
+			(at 138.43 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 209.55 60.96 90)
+		(property "Value" "82k"
+			(at 138.43 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2636,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 209.296 56.134 90)
+			(at 138.684 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 57.15 0)
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2654,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 209.55 57.15 0)
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,91 +2663,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "38be331c-e151-4886-9d38-5203a586578b")
+			(uuid "a138e63e-896a-4a1b-9d2e-efd9a7eb9237")
 		)
 		(pin "2"
-			(uuid "868f48ee-1128-4913-afb7-2b247999765e")
+			(uuid "38364eed-a66a-4b6f-8808-a18867ab43d7")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 146.05 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22527fed-35d2-4149-aafc-cd357888a399")
-		(property "Reference" "R38"
-			(at 146.05 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 146.05 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 145.796 89.916 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "949bcb8f-f37e-48dd-a249-6cfcd73f24c1")
-		)
-		(pin "2"
-			(uuid "ef624649-c1df-48e6-bd30-d7d1b4c719f5")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R38")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -2998,8 +2686,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2757301b-03a3-44b0-9e04-a66d55fd153e")
-		(property "Reference" "R42"
+		(uuid "0eb766d9-b37c-4186-95b0-14fc2aa70d3b")
+		(property "Reference" "R69"
 			(at 180.34 106.6799 0)
 			(effects
 				(font
@@ -3053,42 +2741,24 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R42")
+					(reference "R69")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 152.4 95.25 180)
+		(lib_id "power:+12V")
+		(at 177.8 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2eb35a91-18a3-4af1-886c-8d0026864554")
-		(property "Reference" "R40"
-			(at 154.94 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 154.94 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 151.384 94.996 90)
+		(uuid "101fcdf9-fb31-4a40-8b99-27173a3e3bd1")
+		(property "Reference" "#PWR060"
+			(at 177.8 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,8 +2766,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 152.4 95.25 0)
+		(property "Value" "+12V"
+			(at 177.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,8 +2783,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 152.4 95.25 0)
+		(property "Datasheet" ""
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 177.8 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,15 +2802,317 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3db64fe-3d6f-40fc-b530-71764961a48a")
-		)
-		(pin "2"
-			(uuid "6a2d09f7-9cb6-4800-b646-637ebff2d62c")
+			(uuid "48c1e95d-5613-401a-941a-2e1993946518")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R40")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 95.25 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2841a5fd-4ef9-4b99-ab7e-1f1f3ea29850")
+		(property "Reference" "RV17"
+			(at 95.25 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 95.25 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Zero adj Res A"
+			(at 95.25 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0393e207-cbe1-47bf-8176-56c47567fe8a")
+		)
+		(pin "1"
+			(uuid "95193901-26ec-4279-be34-dca214d348a2")
+		)
+		(pin "3"
+			(uuid "50686262-5b02-4e61-86fa-efb3648c9de5")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "RV17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2adc9e00-0b58-40d6-b0b8-43065d794880")
+		(property "Reference" "R72"
+			(at 167.64 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20k"
+			(at 167.64 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 164.084 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb5baaab-73ba-4883-b8e6-aa6c52fa959d")
+		)
+		(pin "2"
+			(uuid "9434e804-262c-4a2a-b5f4-76b48613fc17")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 119.38 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396df4e7-f5db-4173-9359-a5b5d9d5f1d7")
+		(property "Reference" "R65"
+			(at 119.38 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 119.38 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 119.634 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728e43f8-6ae2-4e5d-804f-7ee854aa11d2")
+		)
+		(pin "2"
+			(uuid "6db36e70-2dbc-4782-b1be-f48c78a542ec")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 190.5 31.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa4b570-09a9-457a-96d5-c61a94aafd8e")
+		(property "Reference" "R73"
+			(at 187.96 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20k"
+			(at 187.96 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 191.516 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2716ab09-905e-4c39-81b2-4178095c7d9d")
+		)
+		(pin "2"
+			(uuid "bc9163d7-6c1f-4f83-965f-eb1e2823d94d")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -3138,8 +3127,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "53ce6a52-ba2d-4dc8-8e4a-9c5bbd74250c")
-		(property "Reference" "R35"
+		(uuid "4486cc05-9dd5-420d-9223-5eedde3e5207")
+		(property "Reference" "R76"
 			(at 224.79 62.2299 0)
 			(effects
 				(font
@@ -3201,7 +3190,1354 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R35")
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC548")
+		(at 162.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "461e2c35-49ae-428d-8ff0-458e002dd70d")
+		(property "Reference" "Q1"
+			(at 167.64 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC548"
+			(at 167.64 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+			(at 167.64 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "89af5fb5-b772-42ee-870d-f3c68c9a7191")
+		)
+		(pin "1"
+			(uuid "c09ac658-a25d-4712-954d-b2369c1a2e8c")
+		)
+		(pin "2"
+			(uuid "d7856b65-1c36-4cd2-802f-5bf2ab86afc0")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 254 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498329c9-d38b-4d74-915f-7c17aea2058c")
+		(property "Reference" "R78"
+			(at 254 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 254 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 253.746 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f421d6c-a2a7-4e60-bf3e-9ee2f17e0307")
+		)
+		(pin "2"
+			(uuid "90c718e8-6985-44da-bd80-27bc42f1ebeb")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 209.55 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53225b5d-9699-4b53-9deb-f1166fdeb89b")
+		(property "Reference" "R71"
+			(at 209.55 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 209.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 209.296 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e2a5039-524b-436f-85c3-adcee90a08e0")
+		)
+		(pin "2"
+			(uuid "ba5ec290-acbf-4733-bf50-8e26a83ca617")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 138.43 127 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5339b951-293c-46d9-9f09-da2c56d3f1de")
+		(property "Reference" "U4"
+			(at 138.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "f199073b-404d-4fcb-945c-fb5ec4cfcd6c")
+		)
+		(pin "3"
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda642")
+		)
+		(pin "7"
+			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b03")
+		)
+		(pin "2"
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f7")
+		)
+		(pin "11"
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289f")
+		)
+		(pin "4"
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0d")
+		)
+		(pin "13"
+			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef2")
+		)
+		(pin "9"
+			(uuid "ff0b421a-d2a8-44cf-ba5a-410c035b7264")
+		)
+		(pin "12"
+			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a4")
+		)
+		(pin "14"
+			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a84a")
+		)
+		(pin "10"
+			(uuid "9e67827c-6e9f-431e-b90c-c5fdf10df0a4")
+		)
+		(pin "1"
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3528")
+		)
+		(pin "6"
+			(uuid "74056594-cf30-420a-a602-8a1cf2c7142c")
+		)
+		(pin "5"
+			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba31")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 209.55 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be4dca2-e678-4dc6-ace1-d851eddbf296")
+		(property "Reference" "R74"
+			(at 209.55 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 209.296 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287d3f87-121e-4122-aa4d-8c7cd17fb299")
+		)
+		(pin "2"
+			(uuid "8ddd96bd-5ef2-4956-a79e-e9f84b98bb57")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 76.2 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c1bfe44-1d07-444e-92d5-5d6675396c91")
+		(property "Reference" "R62"
+			(at 76.2 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 76.2 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 76.454 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e75d66c-b8df-4556-85e9-f3ff1a04ba91")
+		)
+		(pin "2"
+			(uuid "a18c28a7-cf6e-4dcc-b298-53d941a37c92")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 209.55 57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62329cba-09fc-4581-9a8a-1e54cd1bf8f2")
+		(property "Reference" "R75"
+			(at 209.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 209.296 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38be331c-e151-4886-9d38-5203a586578b")
+		)
+		(pin "2"
+			(uuid "868f48ee-1128-4913-afb7-2b247999765e")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 222.25 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6339ce06-cdc6-439e-9fdd-3807db9bbba5")
+		(property "Reference" "#PWR064"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e62967e-84e0-45ee-9265-d233f78ef740")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 222.25 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "676e9873-a8b7-45f9-9fb1-4aa73823039f")
+		(property "Reference" "RV19"
+			(at 224.79 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 224.79 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "382eb849-836a-4cb3-940e-f33db51b76e3")
+		)
+		(pin "1"
+			(uuid "e727a9d2-e9c7-416d-8f47-054ac8b268c8")
+		)
+		(pin "3"
+			(uuid "c32e8c66-f39f-4162-ac54-f8bdb423b69e")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "RV19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70928d22-667a-44bd-9c5c-3c9dc0e1bc0b")
+		(property "Reference" "#PWR059"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "547d9940-6ac4-40f8-a51c-b96465a5d490")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 234.95 50.8 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72eabf28-6156-43d8-898b-35c9f8ee7155")
+		(property "Reference" "U4"
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 234.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 233.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d711")
+		)
+		(pin "3"
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda640")
+		)
+		(pin "7"
+			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b01")
+		)
+		(pin "2"
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f5")
+		)
+		(pin "11"
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289d")
+		)
+		(pin "4"
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0b")
+		)
+		(pin "13"
+			(uuid "c271de0e-8fe6-4e26-aca8-02f2ff22e9c2")
+		)
+		(pin "9"
+			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f5")
+		)
+		(pin "12"
+			(uuid "e2c89bfb-abf8-451c-8f96-ca54a6a9b1c3")
+		)
+		(pin "14"
+			(uuid "592dfb67-dc16-413a-ac5c-a6743cb028d5")
+		)
+		(pin "10"
+			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ed")
+		)
+		(pin "1"
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3526")
+		)
+		(pin "6"
+			(uuid "74056594-cf30-420a-a602-8a1cf2c7142a")
+		)
+		(pin "5"
+			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2f")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 152.4 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f432ea5-62e5-4b77-a700-13b8bc02e1e3")
+		(property "Reference" "R68"
+			(at 154.94 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 154.94 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 151.384 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3db64fe-3d6f-40fc-b530-71764961a48a")
+		)
+		(pin "2"
+			(uuid "6a2d09f7-9cb6-4800-b646-637ebff2d62c")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68df919-b9e0-4039-b04e-8d0c8c0954df")
+		(property "Reference" "#PWR058"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ffe1230-876b-41cb-87b0-6d39071cb483")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8205a01-bfef-4370-bd6c-92de216add17")
+		(property "Reference" "R64"
+			(at 114.3 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 114.3 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 114.554 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420923df-1d66-40b3-a49d-1b10c9e936ce")
+		)
+		(pin "2"
+			(uuid "a62440d7-a856-4513-ac04-e748ff6a3ff6")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a914845a-bac0-4967-bdc4-26b23c1e67f0")
+		(property "Reference" "#PWR062"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25082ff8-93ab-4d27-a181-65d306335d40")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa8d71af-1bd2-42ba-a87b-faad9f90132e")
+		(property "Reference" "#PWR055"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5de85cf4-c42e-4b56-bfe5-d186bdd73793")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 63.5 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ba1493e8-0fcf-4ba1-bee8-300fd60d8f05")
+		(property "Reference" "RV16"
+			(at 60.96 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 60.96 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Res A CV Amt"
+			(at 47.498 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08e0c42d-c26b-490f-ad51-b8ad2d0d6eb4")
+		)
+		(pin "2"
+			(uuid "6291a64c-ba1f-43a8-a1de-6bc22b51387e")
+		)
+		(pin "3"
+			(uuid "af9874da-bd25-4b28-9603-f0b0f31a6428")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "RV16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb4ec930-2d34-4d0a-b3d2-015875d9280f")
+		(property "Reference" "#PWR057"
+			(at 101.6 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b26ba9-f386-4406-b169-4eed94b49717")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3216,8 +4552,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "609a73c0-387a-42a8-84d9-fb40cf704d17")
-		(property "Reference" "R41"
+		(uuid "c7abe217-fb42-41d3-88af-7239e82b2948")
+		(property "Reference" "R70"
 			(at 205.74 93.9799 0)
 			(effects
 				(font
@@ -3271,24 +4607,42 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R41")
+					(reference "R70")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 104.14 0)
+		(lib_id "Device:R_Potentiometer_US")
+		(at 101.6 124.46 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60b1e413-1a35-47f2-8601-50546d5a706c")
-		(property "Reference" "#PWR039"
-			(at 203.2 110.49 0)
+		(uuid "d05c78d7-65ba-4bbb-bc9a-157a6a44e287")
+		(property "Reference" "RV18"
+			(at 99.06 125.7301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 99.06 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,16 +4650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 203.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 104.14 0)
+		(property "Datasheet" "~"
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,8 +4659,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 104.14 0)
+		(property "Description" "Potentiometer, US symbol"
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,127 +4668,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 104.14 0)
+		(property "Function" "Res A"
+			(at 89.154 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "dc27c75f-1606-40d3-823d-c00bf9748878")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 234.95 50.8 0)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66f9ec7a-ffe5-4338-8d3f-c6f215d28e3b")
-		(property "Reference" "U3"
-			(at 234.95 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 234.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 233.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 236.22 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d711")
+			(uuid "9f8c0b11-4f94-4c64-82fb-a162596d316d")
 		)
 		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda640")
-		)
-		(pin "7"
-			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b01")
+			(uuid "2c42d2a0-8ff7-44e7-acac-4336de710565")
 		)
 		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f5")
-		)
-		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289d")
-		)
-		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0b")
-		)
-		(pin "13"
-			(uuid "c271de0e-8fe6-4e26-aca8-02f2ff22e9c2")
-		)
-		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f5")
-		)
-		(pin "12"
-			(uuid "e2c89bfb-abf8-451c-8f96-ca54a6a9b1c3")
-		)
-		(pin "14"
-			(uuid "592dfb67-dc16-413a-ac5c-a6743cb028d5")
-		)
-		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ed")
-		)
-		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3526")
-		)
-		(pin "6"
-			(uuid "74056594-cf30-420a-a602-8a1cf2c7142a")
-		)
-		(pin "5"
-			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2f")
+			(uuid "8f999102-f68b-4ab6-a533-d5e8bd050386")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "U3")
-					(unit 4)
+					(reference "RV18")
+					(unit 1)
 				)
 			)
 		)
@@ -3457,7 +4707,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b9adb3e-fce3-4b3f-b60f-942cadfdb9be")
+		(uuid "d2984bf4-d164-4d99-a828-9eb148b5c815")
 		(property "Reference" "Q2"
 			(at 187.96 87.6299 0)
 			(effects
@@ -3533,108 +4783,147 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC548")
-		(at 162.56 88.9 0)
+		(lib_id "Amplifier_Operational:TL074")
+		(at 95.25 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8438bce8-4e3e-4dff-b90e-69a57409db15")
-		(property "Reference" "Q1"
-			(at 167.64 87.6299 0)
+		(uuid "d452def9-d8e0-448f-9692-a97e71c6dfce")
+		(property "Reference" "U3"
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BC548"
-			(at 167.64 90.1699 0)
+		(property "Value" "TL074"
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 167.64 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 162.56 88.9 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d712")
 		)
 		(pin "3"
-			(uuid "89af5fb5-b772-42ee-870d-f3c68c9a7191")
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda641")
 		)
-		(pin "1"
-			(uuid "c09ac658-a25d-4712-954d-b2369c1a2e8c")
+		(pin "7"
+			(uuid "6e93219f-e6fc-4b7f-a4f2-12ce3eea850b")
 		)
 		(pin "2"
-			(uuid "d7856b65-1c36-4cd2-802f-5bf2ab86afc0")
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f6")
+		)
+		(pin "11"
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289e")
+		)
+		(pin "4"
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0c")
+		)
+		(pin "13"
+			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef1")
+		)
+		(pin "9"
+			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f6")
+		)
+		(pin "12"
+			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a3")
+		)
+		(pin "14"
+			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a849")
+		)
+		(pin "10"
+			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ee")
+		)
+		(pin "1"
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3527")
+		)
+		(pin "6"
+			(uuid "571866e6-8a45-4008-aecf-b33764bfe234")
+		)
+		(pin "5"
+			(uuid "a3bfff12-dbdb-4ca9-bfb8-eee425d545da")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "Q1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 95.25 76.2 90)
+		(lib_id "Device:R_US")
+		(at 101.6 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(uuid "885bb8dc-1331-4425-a433-17ac3fc92969")
-		(property "Reference" "RV9"
-			(at 95.25 80.01 90)
+		(fields_autoplaced yes)
+		(uuid "df22f413-fcca-4898-a4dd-9341a4ebbe94")
+		(property "Reference" "R63"
+			(at 104.14 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "50k"
-			(at 95.25 82.55 90)
+		(property "Value" "20k"
+			(at 104.14 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 95.25 76.2 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 100.584 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +4932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 76.2 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,56 +4940,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Trim-potentiometer, US symbol"
-			(at 95.25 76.2 0)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Function" "Zero adj Res A"
-			(at 95.25 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0393e207-cbe1-47bf-8176-56c47567fe8a")
 		)
 		(pin "1"
-			(uuid "95193901-26ec-4279-be34-dca214d348a2")
+			(uuid "ee3998b0-da7d-492f-b55d-93108a0e5cae")
 		)
-		(pin "3"
-			(uuid "50686262-5b02-4e61-86fa-efb3648c9de5")
+		(pin "2"
+			(uuid "7e875b00-c065-4c63-a836-cfcd72bbef81")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "RV9")
+					(reference "R63")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 133.35 0)
+		(lib_id "power:+12V")
+		(at 222.25 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88d30986-50aa-4106-8e2e-2bd4612bdf5c")
-		(property "Reference" "#PWR041"
-			(at 127 139.7 0)
+		(uuid "e352b90e-edd7-49a7-9ace-84ad6c02f286")
+		(property "Reference" "#PWR063"
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,8 +4983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 127 138.43 0)
+		(property "Value" "+12V"
+			(at 222.25 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +4992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 133.35 0)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +5001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 133.35 0)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,8 +5009,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 133.35 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,12 +5019,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ffe1230-876b-41cb-87b0-6d39071cb483")
+			(uuid "ac37ce61-8bc9-484d-8973-09d81276e39d")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR041")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3764,8 +5039,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "925d80e0-d8df-4111-b1e7-77f18e674eb4")
-		(property "Reference" "R29"
+		(uuid "e7b81c79-1f49-43c3-b14c-b54b53f73170")
+		(property "Reference" "R77"
 			(at 234.95 31.75 90)
 			(effects
 				(font
@@ -3825,447 +5100,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 254 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9781e4a5-fa65-41f8-a6b9-1e515d850484")
-		(property "Reference" "R33"
-			(at 254 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 254 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 253.746 51.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 254 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 254 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f421d6c-a2a7-4e60-bf3e-9ee2f17e0307")
-		)
-		(pin "2"
-			(uuid "90c718e8-6985-44da-bd80-27bc42f1ebeb")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 209.55 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99f0f9f6-e1fb-4ecf-9edf-dbed77a6a862")
-		(property "Reference" "R39"
-			(at 209.55 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 209.55 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 209.296 89.916 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 209.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 209.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e2a5039-524b-436f-85c3-adcee90a08e0")
-		)
-		(pin "2"
-			(uuid "ba5ec290-acbf-4733-bf50-8e26a83ca617")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 101.6 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9db63f4b-f3c6-4c6f-878d-ddf05cfca7bd")
-		(property "Reference" "R31"
-			(at 104.14 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20k"
-			(at 104.14 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 100.584 114.046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 101.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee3998b0-da7d-492f-b55d-93108a0e5cae")
-		)
-		(pin "2"
-			(uuid "7e875b00-c065-4c63-a836-cfcd72bbef81")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dd850da-9404-4fd2-9e69-313daa93df50")
-		(property "Reference" "#PWR044"
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5de85cf4-c42e-4b56-bfe5-d186bdd73793")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 101.6 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "a30cb098-b49c-4be8-9645-93e4656c50b8")
-		(property "Reference" "RV8"
-			(at 99.06 125.7301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 99.06 123.1901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 101.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 101.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Res A"
-			(at 89.154 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f8c0b11-4f94-4c64-82fb-a162596d316d")
-		)
-		(pin "3"
-			(uuid "2c42d2a0-8ff7-44e7-acac-4336de710565")
-		)
-		(pin "2"
-			(uuid "8f999102-f68b-4ab6-a533-d5e8bd050386")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "RV8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 138.43 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a91d883f-719f-47e6-accb-52bfaf4fdb25")
-		(property "Reference" "R43"
-			(at 138.43 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "82k"
-			(at 138.43 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 138.684 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a138e63e-896a-4a1b-9d2e-efd9a7eb9237")
-		)
-		(pin "2"
-			(uuid "38364eed-a66a-4b6f-8808-a18867ab43d7")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R43")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -4280,8 +5115,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aaad7206-da62-4e92-afe6-43aaa5fa114b")
-		(property "Reference" "#PWR042"
+		(uuid "f42758e4-edd6-4836-a97c-13d1d1239ab3")
+		(property "Reference" "#PWR056"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -4331,7 +5166,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR042")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4339,24 +5174,24 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 76.2 86.36 90)
+		(at 146.05 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5946d4f-6a2f-40ce-b7c1-66a67fe258d2")
-		(property "Reference" "R36"
-			(at 76.2 80.01 90)
+		(uuid "f6ee18a3-f2ba-4ace-8fa9-8f1751abfb14")
+		(property "Reference" "R67"
+			(at 146.05 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 76.2 82.55 90)
+		(property "Value" "100k"
+			(at 146.05 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 76.454 85.344 90)
+			(at 145.796 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +5208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 86.36 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,247 +5217,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e75d66c-b8df-4556-85e9-f3ff1a04ba91")
-		)
-		(pin "2"
-			(uuid "a18c28a7-cf6e-4dcc-b298-53d941a37c92")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 138.43 127 0)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf7ac334-f6bd-405f-9036-db27088f40a5")
-		(property "Reference" "U3"
-			(at 138.43 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 138.43 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 137.16 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "f199073b-404d-4fcb-945c-fb5ec4cfcd6c")
-		)
-		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda642")
-		)
-		(pin "7"
-			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b03")
-		)
-		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f7")
-		)
-		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289f")
-		)
-		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0d")
-		)
-		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef2")
-		)
-		(pin "9"
-			(uuid "ff0b421a-d2a8-44cf-ba5a-410c035b7264")
-		)
-		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a4")
-		)
-		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a84a")
-		)
-		(pin "10"
-			(uuid "9e67827c-6e9f-431e-b90c-c5fdf10df0a4")
-		)
-		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3528")
-		)
-		(pin "6"
-			(uuid "74056594-cf30-420a-a602-8a1cf2c7142c")
-		)
-		(pin "5"
-			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba31")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 177.8 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2a1038d-40b5-42b0-a9b2-383fcb979a98")
-		(property "Reference" "#PWR011"
-			(at 177.8 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 177.8 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 177.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c1e95d-5613-401a-941a-2e1993946518")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 31.75 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd93411e-b30f-4665-abdf-27e88eee6377")
-		(property "Reference" "R28"
-			(at 187.96 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20k"
-			(at 187.96 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 191.516 31.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 190.5 31.75 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +5226,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 190.5 31.75 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,586 +5234,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2716ab09-905e-4c39-81b2-4178095c7d9d")
+			(uuid "949bcb8f-f37e-48dd-a249-6cfcd73f24c1")
 		)
 		(pin "2"
-			(uuid "bc9163d7-6c1f-4f83-965f-eb1e2823d94d")
+			(uuid "ef624649-c1df-48e6-bd30-d7d1b4c719f5")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 222.25 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da4e1387-51c0-41b9-9d1a-d50d7fa3abe9")
-		(property "Reference" "#PWR037"
-			(at 222.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 222.25 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac37ce61-8bc9-484d-8973-09d81276e39d")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 63.5 95.25 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "de3b33e3-47cf-4188-9d8a-1ccf8daa1ea9")
-		(property "Reference" "RV11"
-			(at 60.96 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 60.96 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
-			(at 63.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 63.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Res A CV Amt"
-			(at 47.498 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08e0c42d-c26b-490f-ad51-b8ad2d0d6eb4")
-		)
-		(pin "2"
-			(uuid "6291a64c-ba1f-43a8-a1de-6bc22b51387e")
-		)
-		(pin "3"
-			(uuid "af9874da-bd25-4b28-9603-f0b0f31a6428")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "RV11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 119.38 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eca5504c-e759-4836-b82f-13d5a9b06616")
-		(property "Reference" "R44"
-			(at 119.38 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 119.38 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 119.634 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "728e43f8-6ae2-4e5d-804f-7ee854aa11d2")
-		)
-		(pin "2"
-			(uuid "6db36e70-2dbc-4782-b1be-f48c78a542ec")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 222.25 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee86b6b4-0192-4ea7-984e-02b02ce03c89")
-		(property "Reference" "RV10"
-			(at 224.79 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 224.79 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trim-potentiometer, US symbol"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "382eb849-836a-4cb3-940e-f33db51b76e3")
-		)
-		(pin "1"
-			(uuid "e727a9d2-e9c7-416d-8f47-054ac8b268c8")
-		)
-		(pin "3"
-			(uuid "c32e8c66-f39f-4162-ac54-f8bdb423b69e")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "RV10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 114.3 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f56daed2-5939-414c-ba19-0029a0a3af87")
-		(property "Reference" "R37"
-			(at 114.3 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 114.3 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 114.554 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "420923df-1d66-40b3-a49d-1b10c9e936ce")
-		)
-		(pin "2"
-			(uuid "a62440d7-a856-4513-ac04-e748ff6a3ff6")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 209.55 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99bd4b4-ae24-4c50-8c24-be248496a21d")
-		(property "Reference" "R30"
-			(at 209.55 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 209.55 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 209.296 45.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 209.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "287d3f87-121e-4122-aa4d-8c7cd17fb299")
-		)
-		(pin "2"
-			(uuid "8ddd96bd-5ef2-4956-a79e-e9f84b98bb57")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa6ebce4-9a59-4630-9a77-132bbdbed2a3")
-		(property "Reference" "#PWR038"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "547d9940-6ac4-40f8-a51c-b96465a5d490")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 165.1 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb60053c-7bbb-43c9-8f9e-7bc0f8498b43")
-		(property "Reference" "R27"
-			(at 167.64 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20k"
-			(at 167.64 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 164.084 31.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb5baaab-73ba-4883-b8e6-aa6c52fa959d")
-		)
-		(pin "2"
-			(uuid "9434e804-262c-4a2a-b5f4-76b48613fc17")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ad5c5475-8483-41b0-97cc-617422d54799"
-					(reference "R27")
+					(reference "R67")
 					(unit 1)
 				)
 			)

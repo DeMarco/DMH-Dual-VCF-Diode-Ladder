@@ -8,259 +8,6 @@
 		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL072"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL072"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL072_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -4269,7 +4016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01533bd8-a804-4cf6-881c-02473c680197")
-		(property "Reference" "R94"
+		(property "Reference" "R15"
 			(at 193.04 170.1799 0)
 			(effects
 				(font
@@ -4323,7 +4070,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R94")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09047acb-0dd1-4512-93da-7334939e29c4")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR019"
 			(at 63.5 109.22 0)
 			(effects
 				(font
@@ -4389,7 +4136,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR075")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b476d42-31d8-47e6-876e-007a4be5377a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR022"
 			(at 177.8 151.13 0)
 			(effects
 				(font
@@ -4455,7 +4202,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR072")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1687ee57-eab4-4c5f-86cf-e6bf7bd8a605")
-		(property "Reference" "R75"
+		(property "Reference" "R17"
 			(at 100.33 173.9899 0)
 			(effects
 				(font
@@ -4525,7 +4272,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R75")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4541,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e268a0-28d2-4be3-b1e1-7de66b219af3")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR028"
 			(at 119.38 223.52 0)
 			(effects
 				(font
@@ -4591,7 +4338,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR064")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4607,7 +4354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18faddcc-0523-47af-aba8-aa25581a0c11")
-		(property "Reference" "R72"
+		(property "Reference" "R16"
 			(at 107.95 158.75 90)
 			(effects
 				(font
@@ -4659,7 +4406,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R72")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d499ff7-1917-4af4-a0e7-22f5421e0504")
-		(property "Reference" "R95"
+		(property "Reference" "R14"
 			(at 180.34 170.1799 0)
 			(effects
 				(font
@@ -4729,7 +4476,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R95")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4745,7 +4492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24e414f4-cb17-481e-9b29-139ddd9b3cae")
-		(property "Reference" "RV7"
+		(property "Reference" "RV6"
 			(at 124.46 140.9701 0)
 			(effects
 				(font
@@ -4813,7 +4560,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV7")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad0440a-abe7-47e1-bacc-0b9ac52cc34e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR029"
 			(at 63.5 236.22 0)
 			(effects
 				(font
@@ -4879,7 +4626,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR066")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4895,7 +4642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bb417cb-0f79-4017-b4e3-b95b949479ce")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR011"
 			(at 38.1 83.82 0)
 			(effects
 				(font
@@ -4945,7 +4692,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR074")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4961,7 +4708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "357cc26b-4c7c-4e6e-844f-d252c41eefbe")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 107.95 57.15 90)
 			(effects
 				(font
@@ -5013,7 +4760,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5028,7 +4775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a47d196-e252-47a5-91dd-58371117b5ef")
-		(property "Reference" "RV18"
+		(property "Reference" "RV10"
 			(at 88.9 207.01 90)
 			(effects
 				(font
@@ -5094,7 +4841,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV18")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -5110,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc87189-1b56-4a3d-a5cb-5c37befb02c3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR021"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -5160,7 +4907,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR034")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5176,7 +4923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f268b9c-0fec-411c-a004-2fcb3be7ba88")
-		(property "Reference" "R61"
+		(property "Reference" "R8"
 			(at 107.95 107.95 90)
 			(effects
 				(font
@@ -5228,7 +4975,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R61")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5244,7 +4991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4059abc0-7731-4e73-b46b-c51c0412d81d")
-		(property "Reference" "R92"
+		(property "Reference" "R6"
 			(at 69.85 80.01 90)
 			(effects
 				(font
@@ -5296,7 +5043,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R92")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5312,7 +5059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4064df61-41e6-4290-ab96-3b317b928bac")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 127 137.16 0)
 			(effects
 				(font
@@ -5362,7 +5109,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5448,7 +5195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b041e3-8033-45b6-80ce-4665a2c44f45")
-		(property "Reference" "R78"
+		(property "Reference" "R19"
 			(at 107.95 184.15 90)
 			(effects
 				(font
@@ -5500,7 +5247,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R78")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5516,7 +5263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46d482a1-634b-4468-a99e-9d2603fe5cf9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR012"
 			(at 119.38 96.52 0)
 			(effects
 				(font
@@ -5566,7 +5313,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR023")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5582,7 +5329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c986b57-6dbb-4d99-bb65-ab0200587f7f")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 133.35 57.15 90)
 			(effects
 				(font
@@ -5642,7 +5389,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5657,7 +5404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "559e8996-2691-4925-a67e-846db02ffe99")
-		(property "Reference" "RV4"
+		(property "Reference" "RV8"
 			(at 63.5 181.61 90)
 			(effects
 				(font
@@ -5723,7 +5470,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV4")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -5739,7 +5486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "596577f8-8de4-4bae-aff5-5c5f295e50a6")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR030"
 			(at 69.85 267.97 0)
 			(effects
 				(font
@@ -5789,7 +5536,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR067")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5805,7 +5552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "690bd4ed-70d2-43a4-8da2-03c0de299b9a")
-		(property "Reference" "RV19"
+		(property "Reference" "RV11"
 			(at 60.96 220.9799 0)
 			(effects
 				(font
@@ -5873,7 +5620,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV19")
+					(reference "RV11")
 					(unit 1)
 				)
 			)
@@ -5889,7 +5636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c1725d9-0c06-4ff7-bd48-c6c7ed221b18")
-		(property "Reference" "RV3"
+		(property "Reference" "RV7"
 			(at 95.25 166.3701 0)
 			(effects
 				(font
@@ -5957,7 +5704,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV3")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -5973,7 +5720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5dce80-ddf9-4816-827a-9ec16e726a60")
-		(property "Reference" "R82"
+		(property "Reference" "R20"
 			(at 133.35 184.15 90)
 			(effects
 				(font
@@ -6033,7 +5780,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R82")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6048,7 +5795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d93365f-fc37-499e-80c4-947f73459a3d")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 168.91 184.4674 90)
 			(effects
 				(font
@@ -6113,7 +5860,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6129,7 +5876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "704965d8-55e2-40d9-bf4f-3514b8a3fe5a")
-		(property "Reference" "R90"
+		(property "Reference" "R3"
 			(at 44.45 54.61 90)
 			(effects
 				(font
@@ -6181,7 +5928,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R90")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6197,7 +5944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ab537ae-a19b-42fb-9aed-d440b1c9c8e2")
-		(property "Reference" "R62"
+		(property "Reference" "R10"
 			(at 67.31 126.9999 0)
 			(effects
 				(font
@@ -6251,7 +5998,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R62")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d421144-b7e3-432d-b01f-9a90ca99401f")
-		(property "Reference" "RV21"
+		(property "Reference" "RV3"
 			(at 35.56 68.5799 0)
 			(effects
 				(font
@@ -6335,7 +6082,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV21")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -6350,7 +6097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "861d137c-9446-4c56-b587-3b45fc9d1747")
-		(property "Reference" "RV22"
+		(property "Reference" "RV4"
 			(at 88.9 80.01 90)
 			(effects
 				(font
@@ -6416,7 +6163,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV22")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -6431,7 +6178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87c46060-9ba2-41e1-afd2-2e2537f738db")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 90.17 234.95 0)
 			(effects
 				(font
@@ -6506,7 +6253,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "899c9963-0d0f-47f0-a5b1-97be42b5087b")
-		(property "Reference" "RV20"
+		(property "Reference" "RV2"
 			(at 63.5 54.61 90)
 			(effects
 				(font
@@ -6587,7 +6334,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV20")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -6603,7 +6350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc4d2f0-a6c6-4950-92ea-5f36a1eec9e6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 127 152.4 0)
 			(effects
 				(font
@@ -6653,7 +6400,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6669,7 +6416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9242c4dd-a253-417a-80e7-d85228b96c26")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR027"
 			(at 38.1 210.82 0)
 			(effects
 				(font
@@ -6719,7 +6466,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR061")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6735,7 +6482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95ce73dd-4ba9-4b55-9a5e-f783306bc684")
-		(property "Reference" "R91"
+		(property "Reference" "R24"
 			(at 67.31 243.8399 0)
 			(effects
 				(font
@@ -6797,7 +6544,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R91")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6881,7 +6628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b8a2cf-5f59-4f3f-be44-c58f9005f737")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR026"
 			(at 177.8 199.39 0)
 			(effects
 				(font
@@ -6931,7 +6678,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR068")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6947,7 +6694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa4a6c6-3607-4eb8-a656-1bd3fa061833")
-		(property "Reference" "R96"
+		(property "Reference" "R13"
 			(at 167.64 170.1799 0)
 			(effects
 				(font
@@ -7001,7 +6748,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R96")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7011,14 +6758,14 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 129.54 208.28 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cd86a66-e965-4be9-936f-fc31d119b517")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 129.54 198.12 0)
 			(effects
 				(font
@@ -7059,6 +6806,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 129.54 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -7106,8 +6861,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "U5")
-					(unit 3)
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)
@@ -7122,7 +6877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a718a240-2c94-4870-86bb-f6780406a7c3")
-		(property "Reference" "R93"
+		(property "Reference" "R25"
 			(at 67.31 253.9999 0)
 			(effects
 				(font
@@ -7176,7 +6931,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R93")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7192,7 +6947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a914e937-a037-47a3-bc6e-ed67875157e6")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 95.25 39.3701 0)
 			(effects
 				(font
@@ -7260,14 +7015,14 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 88.9 88.9 0)
 		(mirror x)
 		(unit 2)
@@ -7276,24 +7031,26 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe636a1-d5e7-4e9a-a8dc-e63c929568a8")
-		(property "Reference" "U7"
-			(at 88.9 99.06 0)
+		(property "Reference" "U1"
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072"
-			(at 88.9 96.52 0)
+		(property "Value" "TL074"
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 88.9 88.9 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7059,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 88.9 88.9 0)
+			(at 90.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -7351,10 +7108,28 @@
 		(pin "2"
 			(uuid "3bb9df11-fb29-4d13-8099-1bfcb9a483a9")
 		)
+		(pin "10"
+			(uuid "eb5d669d-d676-478a-be35-cd4dcb702d44")
+		)
+		(pin "9"
+			(uuid "86abc615-77ea-4637-885b-8151a22fa7db")
+		)
+		(pin "12"
+			(uuid "0a312126-4412-4e0b-800f-159886e437a1")
+		)
+		(pin "13"
+			(uuid "a1dfd1c3-2614-43b0-a081-4921902b387a")
+		)
+		(pin "14"
+			(uuid "01f3e121-58c1-47bd-8c46-81959f6066d6")
+		)
+		(pin "11"
+			(uuid "5e0d3166-922b-44a8-b4e0-3e64b7f4e0f5")
+		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "U7")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -7370,7 +7145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0fc7ea8-21d9-4b92-b45b-9550e1250789")
-		(property "Reference" "R24"
+		(property "Reference" "R9"
 			(at 67.31 116.8399 0)
 			(effects
 				(font
@@ -7432,40 +7207,42 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R24")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 63.5 190.5 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b3659889-e8a2-485d-a87a-ef395a044083")
-		(property "Reference" "U8"
-			(at 63.5 200.66 0)
+		(property "Reference" "U5"
+			(at 63.5 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072"
-			(at 63.5 198.12 0)
+		(property "Value" "TL074"
+			(at 63.5 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 63.5 190.5 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 62.23 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7251,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 63.5 190.5 0)
+			(at 64.77 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 63.5 190.5 0)
 			(effects
 				(font
@@ -7523,11 +7300,29 @@
 		(pin "2"
 			(uuid "3ddaf047-255b-452f-902b-dd21bd36ed63")
 		)
+		(pin "12"
+			(uuid "c9571d0a-0a0f-4bdd-b25e-eda7b090beac")
+		)
+		(pin "14"
+			(uuid "94d34ed4-6937-4d0f-b4d7-d15b62f3e744")
+		)
+		(pin "11"
+			(uuid "c56ea43e-0d8e-4afd-82ec-0ac7ae2cad9e")
+		)
+		(pin "13"
+			(uuid "a24c209b-a942-4d66-850b-53dbf5cb5c6a")
+		)
+		(pin "9"
+			(uuid "558faab9-6ac0-4da1-bc66-b51de07ca69c")
+		)
+		(pin "10"
+			(uuid "dd346f64-fdc8-4e65-b70a-7690e433daa8")
+		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "U8")
-					(unit 1)
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
@@ -7542,7 +7337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b42de5d3-8397-4501-95a2-ac00e795ee25")
-		(property "Reference" "RV17"
+		(property "Reference" "RV9"
 			(at 35.56 195.5799 0)
 			(effects
 				(font
@@ -7610,7 +7405,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV17")
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7495,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 129.54 81.28 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7750,6 +7545,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "bc24e4bc-0021-4515-bb15-a6a71fc55941")
 		)
@@ -7796,7 +7599,7 @@
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
 					(reference "U1")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -7811,7 +7614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1de32f7-889e-4339-8517-4ef67fb9ee28")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR09"
 			(at 97.79 35.56 0)
 			(effects
 				(font
@@ -7861,7 +7664,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR020")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7877,7 +7680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c371cbea-dc09-43d0-a276-200c5fc79347")
-		(property "Reference" "R25"
+		(property "Reference" "R12"
 			(at 129.54 148.5899 0)
 			(effects
 				(font
@@ -7931,7 +7734,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R25")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7947,7 +7750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2687d3-d0ac-4d86-a2a0-9a114967760d")
-		(property "Reference" "R87"
+		(property "Reference" "R22"
 			(at 107.95 209.55 90)
 			(effects
 				(font
@@ -7999,7 +7802,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R87")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8083,7 +7886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8382ccc-0fe4-449f-80f6-e5ac9ddad94d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR010"
 			(at 97.79 50.8 0)
 			(effects
 				(font
@@ -8133,7 +7936,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR021")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8149,7 +7952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f57aab-2d25-4e8e-b6c6-a39233443864")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 97.79 162.56 0)
 			(effects
 				(font
@@ -8199,7 +8002,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45e8b80-fdf1-433a-bf3c-51acc400e7f0")
-		(property "Reference" "R77"
+		(property "Reference" "R18"
 			(at 44.45 181.61 90)
 			(effects
 				(font
@@ -8267,7 +8070,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R77")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8283,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e52a7fc5-1591-4c69-b07f-d274bf020707")
-		(property "Reference" "R86"
+		(property "Reference" "R21"
 			(at 69.85 207.01 90)
 			(effects
 				(font
@@ -8335,7 +8138,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R86")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8351,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b36c92-3181-48a1-9451-210c75026def")
-		(property "Reference" "R26"
+		(property "Reference" "R11"
 			(at 137.16 133.35 90)
 			(effects
 				(font
@@ -8403,7 +8206,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R26")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8419,7 +8222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeeb5cc1-d661-4acb-b713-dbd690950e4f")
-		(property "Reference" "RV23"
+		(property "Reference" "RV5"
 			(at 60.96 93.9799 0)
 			(effects
 				(font
@@ -8487,7 +8290,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "RV23")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -8502,7 +8305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5599099-d3ec-49b5-ad05-f00d42f6f1ca")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 194.31 184.4674 90)
 			(effects
 				(font
@@ -8567,7 +8370,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8582,7 +8385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa290021-2855-49ad-85fe-69600f6fd09b")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 90.17 107.95 0)
 			(effects
 				(font
@@ -8657,7 +8460,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -8673,7 +8476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "facb6f05-39cf-4c08-ba85-6f08aebf3a2d")
-		(property "Reference" "R88"
+		(property "Reference" "R23"
 			(at 107.95 234.95 90)
 			(effects
 				(font
@@ -8725,7 +8528,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "R88")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb6c604c-6a55-4716-942e-e26c3d911ccf")
-		(property "Reference" "SW6"
+		(property "Reference" "SW10"
 			(at 165.1 130.81 0)
 			(effects
 				(font
@@ -8805,40 +8608,42 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "SW6")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 63.5 63.5 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fc8d14a0-aa30-4dcf-b703-d349e0e322f6")
-		(property "Reference" "U7"
-			(at 63.5 73.66 0)
+		(property "Reference" "U1"
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072"
-			(at 63.5 71.12 0)
+		(property "Value" "TL074"
+			(at 63.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 63.5 63.5 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 62.23 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +8652,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 63.5 63.5 0)
+			(at 64.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -8896,11 +8701,29 @@
 		(pin "2"
 			(uuid "07fd152a-6e63-4006-8b03-12da5b28a17c")
 		)
+		(pin "13"
+			(uuid "91e11a8b-303f-4322-80b1-ea02ec4f542a")
+		)
+		(pin "11"
+			(uuid "3fa4ef65-6d12-4016-af77-350ef69ebdab")
+		)
+		(pin "9"
+			(uuid "48425ce2-0fc2-4ad8-9701-7bea404d2d73")
+		)
+		(pin "14"
+			(uuid "ea9190ff-3276-410b-baef-10c679b98890")
+		)
+		(pin "10"
+			(uuid "2ffc28fa-6d9e-4f4b-bc05-a6ad3b3a0d2f")
+		)
+		(pin "12"
+			(uuid "565743fd-7af0-4984-9d9d-e0daed525d08")
+		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "U7")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -8972,7 +8795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 88.9 215.9 0)
 		(mirror x)
 		(unit 2)
@@ -8981,24 +8804,26 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffcbece2-006c-4738-8b64-5c2536620524")
-		(property "Reference" "U8"
-			(at 88.9 226.06 0)
+		(property "Reference" "U4"
+			(at 88.9 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072"
-			(at 88.9 223.52 0)
+		(property "Value" "TL074"
+			(at 88.9 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 88.9 215.9 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 87.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +8832,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 88.9 215.9 0)
+			(at 90.17 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +8840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 88.9 215.9 0)
 			(effects
 				(font
@@ -9056,10 +8881,28 @@
 		(pin "2"
 			(uuid "3bb9df11-fb29-4d13-8099-1bfcb9a483aa")
 		)
+		(pin "10"
+			(uuid "8e7a8659-70e3-4d78-b9eb-eea841c7d084")
+		)
+		(pin "11"
+			(uuid "d5a330ca-22dd-48c6-b656-835f47f532e0")
+		)
+		(pin "13"
+			(uuid "14efbc35-ac6a-4e3a-b36e-6cace61fb470")
+		)
+		(pin "9"
+			(uuid "730f9b90-6c4e-4c34-afbd-b12ea2bb7b33")
+		)
+		(pin "12"
+			(uuid "77e3ae95-224b-43de-a5ce-2a2f745c94fb")
+		)
+		(pin "14"
+			(uuid "eb982fad-6461-46b1-9469-466cfacc596b")
+		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ec2d44bc-ed06-4f0b-a22e-df640fa5e089"
-					(reference "U8")
+					(reference "U4")
 					(unit 2)
 				)
 			)

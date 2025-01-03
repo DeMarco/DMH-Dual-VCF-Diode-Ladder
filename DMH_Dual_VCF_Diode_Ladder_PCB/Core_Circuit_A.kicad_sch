@@ -3304,18 +3304,6 @@
 		)
 		(uuid "ff00dac7-b5f2-4543-ab24-dd32331ad3d4")
 	)
-	(hierarchical_label "Res Input"
-		(shape input)
-		(at 209.55 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1beb1d13-c487-4bdd-83e8-de44e17eaa7a")
-	)
 	(hierarchical_label "CV"
 		(shape input)
 		(at 78.74 152.4 180)
@@ -3328,18 +3316,6 @@
 		)
 		(uuid "4505c080-6091-4ff2-a6d8-947eba67e323")
 	)
-	(hierarchical_label "Output"
-		(shape output)
-		(at 270.51 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "514f87cf-facd-4070-a896-b2a78eee8850")
-	)
 	(hierarchical_label "Raw Output"
 		(shape output)
 		(at 209.55 76.2 0)
@@ -3350,7 +3326,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a11fd60e-e4f1-45d1-9a2c-134cd8c613da")
+		(uuid "54bfa0d3-9ccf-4551-be3a-b8a8243782e4")
 	)
 	(hierarchical_label "Input"
 		(shape input)
@@ -3362,230 +3338,53 @@
 			)
 			(justify right)
 		)
-		(uuid "e861e411-a4d9-4cff-bcef-e7f0b27fe964")
+		(uuid "b72442f2-1b22-4798-9c37-7644cccc954a")
+	)
+	(hierarchical_label "Output"
+		(shape output)
+		(at 270.51 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2b440e5-9acb-4005-883f-52b0f9da5824")
+	)
+	(hierarchical_label "Res Input"
+		(shape input)
+		(at 209.55 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eac3c0ae-e1af-4c40-bd45-b87c2af524fa")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 85.09 162.56 90)
+		(lib_id "Device:R_Potentiometer_US")
+		(at 25.4 63.5 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08e29281-7fa5-4ab8-ab4c-591845f3f84a")
-		(property "Reference" "R9"
-			(at 85.09 156.21 90)
+		(uuid "00d4fd4a-dc6a-49f2-96cf-c15ad2d1feba")
+		(property "Reference" "RV12"
+			(at 22.86 64.7701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 85.09 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 85.344 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 85.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3980b84a-9323-42da-8202-7950321e3d26")
-		)
-		(pin "1"
-			(uuid "10115c13-8761-4b34-9dae-549e64b9e0be")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 78.74 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "098c9acc-25be-42a1-974b-a6df4ff7cfac")
-		(property "Reference" "#PWR027"
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 78.74 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 78.74 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e869e91-d4b0-4d8c-9492-057a92e31067")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 152.4 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b220fe4-cd00-45ab-8012-edde6e3a7ae4")
-		(property "Reference" "C12"
-			(at 152.4 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 152.4 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 156.21 98.0948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7a59dc0-4303-4dee-bb76-ef365b216a17")
-		)
-		(pin "2"
-			(uuid "09f7273d-b83a-408f-9f7d-cacc12014e2a")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 52.07 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10b7e918-d897-48b8-aab7-5489e0ac7e67")
-		(property "Reference" "R6"
-			(at 54.61 74.9299 0)
+			(at 22.86 62.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,17 +3392,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k"
-			(at 54.61 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 51.054 75.946 90)
+		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+			(at 25.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 76.2 0)
+			(at 25.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,8 +3410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 52.07 76.2 0)
+		(property "Description" "Potentiometer, US symbol"
+			(at 25.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,228 +3419,30 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "99c3915c-509b-4bfe-ac91-c875bdde1ff3")
-		)
-		(pin "1"
-			(uuid "daac31a1-c0b9-4107-a2ca-b5b3190a06c3")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 127 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1754bdc1-ac74-4446-a457-60736829e09b")
-		(property "Reference" "R17"
-			(at 129.54 68.5799 0)
+		(property "Function" "Drive"
+			(at 14.986 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 129.54 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 125.984 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
 		(pin "2"
-			(uuid "1a0d7aad-5b9c-46f0-82a3-748494bcb652")
+			(uuid "3bdb5d6c-1ebb-4050-975d-df4ba979c641")
 		)
 		(pin "1"
-			(uuid "3db0cafa-d6ac-47e4-98d0-76ce63457354")
+			(uuid "98937bda-7c48-4b08-8ee1-0e7dfdeccbab")
+		)
+		(pin "3"
+			(uuid "8fcd1402-dbe1-48f0-b23c-635b3dba2c50")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cddee84-2388-4d18-8410-0ca95ed9363e")
-		(property "Reference" "R15"
-			(at 100.33 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 100.33 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 100.584 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f17a026e-f131-4454-9ed3-9d6c39c2d6ed")
-		)
-		(pin "1"
-			(uuid "0a20258e-28f5-4866-a38f-bac939f4a944")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fb06949-dc9d-42f2-9d8e-33f2c7f2cc88")
-		(property "Reference" "#PWR033"
-			(at 241.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a835406-dcf7-4091-b1f5-9d0f10a13685")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR033")
+					(reference "RV12")
 					(unit 1)
 				)
 			)
@@ -3865,8 +3457,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24662603-217b-417a-b408-fe7aa3ec167a")
-		(property "Reference" "C13"
+		(uuid "0328e812-1d6b-452e-a090-50bf59c34f1a")
+		(property "Reference" "C24"
 			(at 152.4 104.14 90)
 			(effects
 				(font
@@ -3926,309 +3518,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 35.56 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2702451b-afe1-4508-a0ff-eeb20bbfa476")
-		(property "Reference" "C7"
-			(at 35.56 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 35.56 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 39.37 62.5348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d97b16b-2346-4ef8-95f1-257142db965b")
-		)
-		(pin "2"
-			(uuid "915795fe-64e2-4ad8-b2a3-1cad53eabbd4")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 152.4 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b74cf0d-cf8e-401f-8ef2-7eae22b87c6d")
-		(property "Reference" "C11"
-			(at 152.4 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 152.4 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 156.21 85.3948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebe88602-8cd9-44d6-b914-92389a96a243")
-		)
-		(pin "2"
-			(uuid "0fa4586d-392a-4fef-918d-92d32c7bad6e")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 135.89 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d467f33-3e2c-4bc7-9437-d25a42e9e166")
-		(property "Reference" "SW1"
-			(at 135.89 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "BP"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88ef2da3-c094-4116-b4f5-90d4430842b1")
-		)
-		(pin "2"
-			(uuid "2304b714-950b-4944-95b6-634edbf081f9")
-		)
-		(pin "3"
-			(uuid "94e644be-8496-49ff-b883-0f21b6a46d50")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "446004bb-4eb8-491f-b263-0c7a91522d09")
-		(property "Reference" "C10"
-			(at 171.45 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 171.45 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 175.26 72.6948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d43829f-26fd-4600-bfb4-900eff3bacbb")
-		)
-		(pin "2"
-			(uuid "30a818e0-bcc6-42cb-9c1b-05272fe331ce")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C10")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4236,15 +3526,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 190.5 63.5 180)
-		(unit 1)
+		(at 250.19 101.6 0)
+		(mirror x)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46a96271-6231-40d1-8b25-33373441a7ad")
-		(property "Reference" "U2"
-			(at 190.5 55.88 0)
+		(uuid "1117bbde-7056-4286-908e-8146da992698")
+		(property "Reference" "U3"
+			(at 250.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +3543,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 190.5 58.42 0)
+			(at 250.19 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +3551,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 191.77 66.04 0)
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +3560,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 189.23 68.58 0)
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +3569,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 190.5 63.5 0)
+			(at 250.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,69 +3577,77 @@
 				(hide yes)
 			)
 		)
-		(pin "10"
-			(uuid "b38f5f10-362c-448f-a94b-7b1b06b8134f")
-		)
-		(pin "3"
-			(uuid "33a1c5e4-b66d-4f8b-9310-a2ea5715ec89")
-		)
-		(pin "14"
-			(uuid "413614c8-8219-442b-8098-fa6cf9f71f2d")
+		(property "Function" ""
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "5"
-			(uuid "c01a1bac-43e6-4864-9e53-3beccd927d10")
+			(uuid "e59d2892-d12b-4a77-93c9-5ced5abd066e")
 		)
-		(pin "8"
-			(uuid "92709c3d-e058-49f1-b291-1713eb129ebc")
-		)
-		(pin "13"
-			(uuid "659c52ae-e9ec-4cf3-9b08-cd26c5eabb99")
-		)
-		(pin "7"
-			(uuid "4b568f31-2d03-4811-9064-9d881a98be77")
-		)
-		(pin "6"
-			(uuid "aec9a634-a3ba-4ec3-b33b-aec37f54118c")
-		)
-		(pin "4"
-			(uuid "8b086c8a-828b-4f8b-81ab-fff096f9ee7e")
+		(pin "14"
+			(uuid "90a88ea4-0650-4134-92cf-ef32ee32dcf4")
 		)
 		(pin "12"
-			(uuid "9f8a6ad5-4428-46eb-9d33-cac0cd75ea5b")
+			(uuid "b8555ca3-fdec-4604-8299-e6c50aa5280a")
 		)
-		(pin "1"
-			(uuid "5a5feb65-a223-454f-a25f-2c597c3f5607")
+		(pin "8"
+			(uuid "e9045b28-b122-47a5-be5a-b4588f7bc566")
+		)
+		(pin "3"
+			(uuid "453ce63f-ed36-4a9f-9eab-4262e5d4950d")
 		)
 		(pin "9"
-			(uuid "ea1758e3-ef70-413f-8fb1-782aae5a9b21")
+			(uuid "367b749a-38f8-4fbd-93db-98a1d2731fa1")
 		)
 		(pin "2"
-			(uuid "330d6a91-b994-4d44-b348-c1f23abb76b5")
+			(uuid "0120697a-f196-4aca-9855-a0243cb8abdf")
 		)
 		(pin "11"
-			(uuid "943e9e0d-bd0a-4fa3-b4ea-1c096c8df1bf")
+			(uuid "8d8bd24e-a449-4517-9adf-b118780d2687")
+		)
+		(pin "7"
+			(uuid "232766cb-3706-4a08-90e6-3d56af74a3f0")
+		)
+		(pin "1"
+			(uuid "3da00acb-2018-4913-a6da-93f5a36f7e53")
+		)
+		(pin "10"
+			(uuid "3e06687d-04ee-4341-891d-06eb933e9da9")
+		)
+		(pin "13"
+			(uuid "3cdcfbb7-3fc1-4438-9b3d-03947f1a9679")
+		)
+		(pin "4"
+			(uuid "e196d6b6-82b7-4318-80c0-bcd68e4154fc")
+		)
+		(pin "6"
+			(uuid "b81cd30c-0f84-4cad-84ce-c71ac80a2ecb")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U2")
-					(unit 1)
+					(reference "U3")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 190.5 30.48 180)
+		(at 85.09 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "564285f4-bd15-4c4e-bd29-702257dcb24c")
-		(property "Reference" "D14"
-			(at 190.5 24.13 0)
+		(uuid "135ace39-b919-4300-9a86-89e5cef5b9d4")
+		(property "Reference" "D6"
+			(at 85.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +3655,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 190.5 26.67 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +3663,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 190.5 30.48 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +3672,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 190.5 30.48 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +3681,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 190.5 30.48 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +3690,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 190.5 30.48 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +3699,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 30.48 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,15 +3708,260 @@
 			)
 		)
 		(pin "1"
-			(uuid "f64909d1-9405-4678-808b-42d30b920028")
+			(uuid "6b855e52-11f5-4b50-b644-ec1c478e6a23")
 		)
 		(pin "2"
-			(uuid "eaeb3e40-54ea-491f-b0f0-9068abf7bd2c")
+			(uuid "edbe81d5-448d-4672-9362-6f051f949631")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D14")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 64.77 60.96 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1441a616-31f5-4bf1-9c3d-59ad878887d7")
+		(property "Reference" "U1"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "ddb77e7a-4fbc-43d8-b279-1cad8e26a956")
+		)
+		(pin "13"
+			(uuid "482385b7-116c-47cc-80c8-94401b73e325")
+		)
+		(pin "4"
+			(uuid "30cfc9c6-63da-47fe-b6d3-7d4b60302394")
+		)
+		(pin "2"
+			(uuid "a809da39-ff2c-4c7a-8db1-1399fc644442")
+		)
+		(pin "7"
+			(uuid "7c62f12c-d348-48fd-9971-07279770448c")
+		)
+		(pin "14"
+			(uuid "8a86081b-4c9c-42ae-a8dd-73bcef9ab059")
+		)
+		(pin "8"
+			(uuid "198bd1ff-dccb-4498-b963-812212995697")
+		)
+		(pin "10"
+			(uuid "ecf5152c-0559-426e-87ed-2fce4c05338c")
+		)
+		(pin "3"
+			(uuid "08171eec-c28f-4890-880c-0e3b74bbf0ee")
+		)
+		(pin "1"
+			(uuid "2c4c9e5d-ac17-406f-a77f-2f2a9515f1c1")
+		)
+		(pin "11"
+			(uuid "7ed04149-4b8b-4591-aa4f-ca53a7394bc3")
+		)
+		(pin "5"
+			(uuid "88345b04-2c2d-42a8-b2c7-31b363f74305")
+		)
+		(pin "12"
+			(uuid "952b3a46-fbf5-42cd-98b1-7f60dbda4d4c")
+		)
+		(pin "6"
+			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff61")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "153024bd-e314-411d-88a5-e280f372e0af")
+		(property "Reference" "#PWR033"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d3cf9f8-d7ad-4152-9471-7d4bc9c4a7a6")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "156be61c-dcca-4b77-b31f-fdbd41369336")
+		(property "Reference" "#PWR036"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9704df5d-528a-44d2-9dd6-d749df953b09")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4425,24 +3969,24 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 137.16 90)
+		(at 85.09 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "590f63f8-5e44-4c3b-bd9d-d1a3a3e08039")
-		(property "Reference" "R10"
-			(at 101.6 130.81 90)
+		(uuid "1920256c-7edd-41bb-b167-d1c1b5d3c806")
+		(property "Reference" "R28"
+			(at 85.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 101.6 133.35 90)
+		(property "Value" "100k"
+			(at 85.09 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +3994,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 101.854 136.144 90)
+			(at 85.344 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 137.16 0)
+			(at 85.09 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4012,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 137.16 0)
+			(at 85.09 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,50 +4021,114 @@
 			)
 		)
 		(pin "2"
-			(uuid "f46161a4-cf77-4e42-91fa-67faaa5ebdfc")
+			(uuid "3980b84a-9323-42da-8202-7950321e3d26")
 		)
 		(pin "1"
-			(uuid "dbffffce-e0db-4f35-a61c-9c964a873106")
+			(uuid "10115c13-8761-4b34-9dae-549e64b9e0be")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R10")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 110.49 162.56 180)
+		(lib_id "power:GND")
+		(at 234.95 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a152269-fa35-4392-9520-b95f858af5fa")
-		(property "Reference" "R12"
-			(at 113.03 161.2899 0)
+		(uuid "1a596717-a69e-4131-ac01-261dd5785486")
+		(property "Reference" "#PWR041"
+			(at 234.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "33k"
-			(at 113.03 163.8299 0)
+		(property "Value" "GND"
+			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 109.474 162.306 90)
+		(property "Footprint" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1850b1c3-300a-4da5-99c2-0a682f9a5453")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea2b1e4-8e0a-4937-8fb8-bfbfddfb25df")
+		(property "Reference" "C27"
+			(at 236.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 236.22 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 240.03 103.1748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4137,141 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 162.56 0)
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05c7aeb6-991f-4d2f-8294-537a96f44dbb")
+		)
+		(pin "2"
+			(uuid "5a43614a-ed90-4dda-b1ed-05ac079c214a")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a0f0a0e-cfbd-4433-998a-dca333639ab4")
+		(property "Reference" "#PWR031"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc57c15d-9d37-4599-bcef-2bb7ca22fdd0")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 222.25 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1bad6b-a290-43ff-be0b-927c7832e01a")
+		(property "Reference" "R41"
+			(at 222.25 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 222.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 222.504 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4280,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 110.49 162.56 0)
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,15 +4289,81 @@
 			)
 		)
 		(pin "2"
-			(uuid "ab4d941d-a393-40f7-ab12-3c34de4a9b3f")
+			(uuid "ba49b685-fa52-43ce-9d62-48d43cc80884")
 		)
 		(pin "1"
-			(uuid "a9266625-340d-4e67-b18b-a35667fc9dc9")
+			(uuid "ba0bf142-bf24-43ab-808e-b6d15a34d4c7")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R12")
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b628f41-8ae5-4ecf-ba28-201e998099d3")
+		(property "Reference" "#PWR037"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768e682f-0015-471d-b700-cb125b27e282")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4570,7 +4378,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d768a91-e29a-417d-a4f1-d638aa6fe174")
+		(uuid "3c1fec43-bbb3-4a63-8cff-dbcef7d63969")
 		(property "Reference" "D7"
 			(at 161.29 66.0399 90)
 			(effects
@@ -4650,6 +4458,1413 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "416138d7-ca5d-4f2a-bfb6-67c492a7ae43")
+		(property "Reference" "R31"
+			(at 100.33 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 100.33 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 100.584 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "810f2a4f-ff2e-494b-96f8-d44c0ecce51c")
+		)
+		(pin "1"
+			(uuid "3d227ecb-9904-4057-ab9b-2ef79fb4d948")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 135.89 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47373641-f98b-456b-832f-17ccea660e2e")
+		(property "Reference" "SW2"
+			(at 135.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "BP"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ef2da3-c094-4116-b4f5-90d4430842b1")
+		)
+		(pin "2"
+			(uuid "2304b714-950b-4944-95b6-634edbf081f9")
+		)
+		(pin "3"
+			(uuid "94e644be-8496-49ff-b883-0f21b6a46d50")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 78.74 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49cbc29b-bec1-47fa-bc8f-1afbdce6db98")
+		(property "Reference" "#PWR034"
+			(at 78.74 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e869e91-d4b0-4d8c-9492-057a92e31067")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 222.25 104.14 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a9ea001-8b0d-4015-b1bf-5e9dd62b8632")
+		(property "Reference" "U3"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 220.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "e59d2892-d12b-4a77-93c9-5ced5abd066f")
+		)
+		(pin "14"
+			(uuid "b4e67678-695e-4729-b48e-309274af7eb6")
+		)
+		(pin "12"
+			(uuid "704f1a3c-9c91-43bf-847c-6d33982429c6")
+		)
+		(pin "8"
+			(uuid "3c72f8ba-469e-40b6-94ec-9ba5440d93d8")
+		)
+		(pin "3"
+			(uuid "453ce63f-ed36-4a9f-9eab-4262e5d4950e")
+		)
+		(pin "9"
+			(uuid "3f3401af-d7e6-4117-a6aa-d57c4cd81bc7")
+		)
+		(pin "2"
+			(uuid "0120697a-f196-4aca-9855-a0243cb8abe0")
+		)
+		(pin "11"
+			(uuid "8d8bd24e-a449-4517-9adf-b118780d2688")
+		)
+		(pin "7"
+			(uuid "232766cb-3706-4a08-90e6-3d56af74a3f1")
+		)
+		(pin "1"
+			(uuid "3da00acb-2018-4913-a6da-93f5a36f7e54")
+		)
+		(pin "10"
+			(uuid "70338e94-d236-4083-828f-58f75ba24233")
+		)
+		(pin "13"
+			(uuid "6b0e1e2a-b4f2-4b1b-8206-5b93f9419db5")
+		)
+		(pin "4"
+			(uuid "e196d6b6-82b7-4318-80c0-bcd68e4154fd")
+		)
+		(pin "6"
+			(uuid "b81cd30c-0f84-4cad-84ce-c71ac80a2ecc")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 116.84 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d0c64e5-2736-48a3-95b2-6f495a21b12a")
+		(property "Reference" "U2"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "ddb77e7a-4fbc-43d8-b279-1cad8e26a954")
+		)
+		(pin "13"
+			(uuid "482385b7-116c-47cc-80c8-94401b73e323")
+		)
+		(pin "4"
+			(uuid "30cfc9c6-63da-47fe-b6d3-7d4b60302392")
+		)
+		(pin "2"
+			(uuid "a4f27879-7723-46d4-82d7-3d8b1aacaa50")
+		)
+		(pin "7"
+			(uuid "8180a636-58cc-4e72-b595-9c9bd1da3ade")
+		)
+		(pin "14"
+			(uuid "8a86081b-4c9c-42ae-a8dd-73bcef9ab057")
+		)
+		(pin "8"
+			(uuid "198bd1ff-dccb-4498-b963-812212995695")
+		)
+		(pin "10"
+			(uuid "ecf5152c-0559-426e-87ed-2fce4c05338a")
+		)
+		(pin "3"
+			(uuid "aad81f68-7cd3-4ce4-91d1-59031c8bed88")
+		)
+		(pin "1"
+			(uuid "010f0018-342c-4db3-946a-c976bce2bd05")
+		)
+		(pin "11"
+			(uuid "7ed04149-4b8b-4591-aa4f-ca53a7394bc1")
+		)
+		(pin "5"
+			(uuid "e178231c-b15e-44bc-9642-ab87cd2eb409")
+		)
+		(pin "12"
+			(uuid "952b3a46-fbf5-42cd-98b1-7f60dbda4d4a")
+		)
+		(pin "6"
+			(uuid "269e3c35-2d56-46c4-9141-57eacfe8474a")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e345085-88d9-4853-b5f0-9556d5c8af8e")
+		(property "Reference" "C23"
+			(at 152.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 152.4 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 156.21 98.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7a59dc0-4303-4dee-bb76-ef365b216a17")
+		)
+		(pin "2"
+			(uuid "09f7273d-b83a-408f-9f7d-cacc12014e2a")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 190.5 63.5 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51291d5c-c18a-43c1-ac92-856afcf7c0c5")
+		(property "Reference" "U2"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "b38f5f10-362c-448f-a94b-7b1b06b8134f")
+		)
+		(pin "3"
+			(uuid "33a1c5e4-b66d-4f8b-9310-a2ea5715ec89")
+		)
+		(pin "14"
+			(uuid "413614c8-8219-442b-8098-fa6cf9f71f2d")
+		)
+		(pin "5"
+			(uuid "c01a1bac-43e6-4864-9e53-3beccd927d10")
+		)
+		(pin "8"
+			(uuid "92709c3d-e058-49f1-b291-1713eb129ebc")
+		)
+		(pin "13"
+			(uuid "659c52ae-e9ec-4cf3-9b08-cd26c5eabb99")
+		)
+		(pin "7"
+			(uuid "4b568f31-2d03-4811-9064-9d881a98be77")
+		)
+		(pin "6"
+			(uuid "aec9a634-a3ba-4ec3-b33b-aec37f54118c")
+		)
+		(pin "4"
+			(uuid "8b086c8a-828b-4f8b-81ab-fff096f9ee7e")
+		)
+		(pin "12"
+			(uuid "9f8a6ad5-4428-46eb-9d33-cac0cd75ea5b")
+		)
+		(pin "1"
+			(uuid "5a5feb65-a223-454f-a25f-2c597c3f5607")
+		)
+		(pin "9"
+			(uuid "ea1758e3-ef70-413f-8fb1-782aae5a9b21")
+		)
+		(pin "2"
+			(uuid "330d6a91-b994-4d44-b348-c1f23abb76b5")
+		)
+		(pin "11"
+			(uuid "943e9e0d-bd0a-4fa3-b4ea-1c096c8df1bf")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 85.09 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "585f86c4-477d-4d4b-ae98-ad8e0ab6906f")
+		(property "Reference" "SW1"
+			(at 85.09 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 85.09 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "LP"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "393db6fd-bf1c-4946-af80-e96a4a0840c2")
+		)
+		(pin "2"
+			(uuid "ca60a2c1-99bd-4b8a-858b-6444d2ff88b9")
+		)
+		(pin "3"
+			(uuid "e3c04d1c-70b8-4699-a9b6-952433555e08")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 208.28 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6181ad2c-df59-4b99-beae-43f6d25d146e")
+		(property "Reference" "R39"
+			(at 208.28 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 208.28 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 208.534 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25b20fd8-977e-49b0-870a-b6900c54317f")
+		)
+		(pin "1"
+			(uuid "974ff9b7-3c30-45e4-9c4a-b9bab975595c")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ae6a3d-9f03-470c-b86f-0178e7d25716")
+		(property "Reference" "C25"
+			(at 171.45 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 171.45 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 175.26 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d43829f-26fd-4600-bfb4-900eff3bacbb")
+		)
+		(pin "2"
+			(uuid "30a818e0-bcc6-42cb-9c1b-05272fe331ce")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 97.79 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64fd8f76-4441-48b4-8262-ce1136d331d9")
+		(property "Reference" "R29"
+			(at 97.79 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 97.79 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 98.044 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 97.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bfa483b-2bd2-4e10-857f-943b69d71230")
+		)
+		(pin "1"
+			(uuid "66e72168-ff16-4152-b973-64a9a94eac6e")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70342f53-c342-4968-b227-cd35342ab21e")
+		(property "Reference" "C26"
+			(at 171.45 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 171.45 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 175.26 123.4948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05ed29df-64d5-4474-a006-f14c83303c04")
+		)
+		(pin "2"
+			(uuid "6f3c3f37-06dd-475b-b270-635a852243e2")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 110.49 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a2d1a78-bb80-4d85-bc44-9d058e2f5a1a")
+		(property "Reference" "R34"
+			(at 113.03 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33k"
+			(at 113.03 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 109.474 162.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab4d941d-a393-40f7-ab12-3c34de4a9b3f")
+		)
+		(pin "1"
+			(uuid "a9266625-340d-4e67-b18b-a35667fc9dc9")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c4c67b1-8c70-4bd8-ab00-65c8667394ff")
+		(property "Reference" "#PWR032"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd6debad-cdc1-4f0e-850c-ed2fa81ea38c")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cef9165-c842-4bf1-b4fb-7372b3557467")
+		(property "Reference" "#PWR039"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd3c67bb-e649-4f3f-bc35-e484b8e3981e")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7de6d8a7-6dc4-4b86-9b2a-d25b6e787886")
+		(property "Reference" "C21"
+			(at 35.56 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 35.56 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 39.37 62.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d97b16b-2346-4ef8-95f1-257142db965b")
+		)
+		(pin "2"
+			(uuid "915795fe-64e2-4ad8-b2a3-1cad53eabbd4")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "818b329b-77c8-46dc-b9ef-bb7184ed904a")
+		(property "Reference" "#PWR038"
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6496b217-5920-40e1-b242-ed472329176d")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "835880e5-2fc8-449f-a57d-2b41b7263774")
+		(property "Reference" "C22"
+			(at 152.4 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 152.4 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 156.21 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebe88602-8cd9-44d6-b914-92389a96a243")
+		)
+		(pin "2"
+			(uuid "0fa4586d-392a-4fef-918d-92d32c7bad6e")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 209.55 30.48 90)
 		(unit 1)
@@ -4657,8 +5872,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "628ac283-ecec-4d72-8182-19d0f935ba7a")
-		(property "Reference" "RV6"
+		(uuid "8560bbfc-13f2-4f73-b21d-5296d7cedc80")
+		(property "Reference" "RV13"
 			(at 209.55 34.29 90)
 			(effects
 				(font
@@ -4724,144 +5939,24 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "RV6")
+					(reference "RV13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 250.19 101.6 0)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "776d820e-8164-4b35-8f3b-592603b59198")
-		(property "Reference" "U2"
-			(at 250.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 250.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 248.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 250.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e59d2892-d12b-4a77-93c9-5ced5abd066e")
-		)
-		(pin "14"
-			(uuid "90a88ea4-0650-4134-92cf-ef32ee32dcf4")
-		)
-		(pin "12"
-			(uuid "b8555ca3-fdec-4604-8299-e6c50aa5280a")
-		)
-		(pin "8"
-			(uuid "e9045b28-b122-47a5-be5a-b4588f7bc566")
-		)
-		(pin "3"
-			(uuid "453ce63f-ed36-4a9f-9eab-4262e5d4950d")
-		)
-		(pin "9"
-			(uuid "367b749a-38f8-4fbd-93db-98a1d2731fa1")
-		)
-		(pin "2"
-			(uuid "0120697a-f196-4aca-9855-a0243cb8abdf")
-		)
-		(pin "11"
-			(uuid "8d8bd24e-a449-4517-9adf-b118780d2687")
-		)
-		(pin "7"
-			(uuid "232766cb-3706-4a08-90e6-3d56af74a3f0")
-		)
-		(pin "1"
-			(uuid "3da00acb-2018-4913-a6da-93f5a36f7e53")
-		)
-		(pin "10"
-			(uuid "3e06687d-04ee-4341-891d-06eb933e9da9")
-		)
-		(pin "13"
-			(uuid "3cdcfbb7-3fc1-4438-9b3d-03947f1a9679")
-		)
-		(pin "4"
-			(uuid "e196d6b6-82b7-4318-80c0-bcd68e4154fc")
-		)
-		(pin "6"
-			(uuid "b81cd30c-0f84-4cad-84ce-c71ac80a2ecb")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 97.79 152.4 90)
+		(lib_id "power:GND")
+		(at 241.3 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a751e70-a11c-404c-844c-6d7fd39a0e29")
-		(property "Reference" "R11"
-			(at 97.79 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 97.79 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 98.044 151.384 90)
+		(uuid "86ec66aa-390b-44ae-9531-d44ce72f52c8")
+		(property "Reference" "#PWR042"
+			(at 241.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,8 +5964,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 97.79 152.4 0)
+		(property "Value" "GND"
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,8 +5981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 97.79 152.4 0)
+		(property "Datasheet" ""
+			(at 241.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,181 +5990,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4bfa483b-2bd2-4e10-857f-943b69d71230")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "66e72168-ff16-4152-b973-64a9a94eac6e")
+			(uuid "5a835406-dcf7-4091-b1f5-9d0f10a13685")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 25.4 63.5 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88886c9f-22f7-45d3-a49a-5aa939f53c8f")
-		(property "Reference" "RV1"
-			(at 22.86 64.7701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 22.86 62.2301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 25.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 25.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Drive"
-			(at 14.986 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3bdb5d6c-1ebb-4050-975d-df4ba979c641")
-		)
-		(pin "1"
-			(uuid "98937bda-7c48-4b08-8ee1-0e7dfdeccbab")
-		)
-		(pin "3"
-			(uuid "8fcd1402-dbe1-48f0-b23c-635b3dba2c50")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 135.89 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8988cb1c-e99c-41a1-93ee-3b2151d8b80c")
-		(property "Reference" "SW2"
-			(at 135.89 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 135.89 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "HP"
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7ae39bd-f6c1-4b49-a492-f47dc7dfd0dc")
-		)
-		(pin "2"
-			(uuid "da8e56d9-cddb-4ae4-918d-4844055c63e1")
-		)
-		(pin "3"
-			(uuid "4a6c2982-2e3f-4b4a-8afb-d96a5dd5cb18")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "SW2")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5076,8 +6020,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c45e3da-a12b-4fe6-acc7-0c4aacd7eb6c")
-		(property "Reference" "R8"
+		(uuid "8f1c26cb-62bb-4604-bfd4-6c424278f496")
+		(property "Reference" "R30"
 			(at 97.79 156.21 90)
 			(effects
 				(font
@@ -5129,49 +6073,42 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R8")
+					(reference "R30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 85.09 152.4 180)
+		(lib_id "Device:R_US")
+		(at 127 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8df2bd9f-81f9-4653-ae40-709fa5f2c907")
-		(property "Reference" "D6"
-			(at 85.09 146.05 0)
+		(uuid "9193538c-ca24-42ad-a695-26463da46da1")
+		(property "Reference" "R37"
+			(at 129.54 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 85.09 148.59 0)
+		(property "Value" "2k"
+			(at 129.54 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 85.09 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 85.09 152.4 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 125.984 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,8 +6116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 85.09 152.4 0)
+		(property "Datasheet" "~"
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,8 +6125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 85.09 152.4 0)
+		(property "Description" "Resistor, US symbol"
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,90 +6134,24 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 152.4 0)
+		(property "Function" ""
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "6b855e52-11f5-4b50-b644-ec1c478e6a23")
 		)
 		(pin "2"
-			(uuid "edbe81d5-448d-4672-9362-6f051f949631")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8df39349-af34-4609-ae06-daa2ac01de20")
-		(property "Reference" "#PWR035"
-			(at 127 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "1a0d7aad-5b9c-46f0-82a3-748494bcb652")
 		)
 		(pin "1"
-			(uuid "6496b217-5920-40e1-b242-ed472329176d")
+			(uuid "3db0cafa-d6ac-47e4-98d0-76ce63457354")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR035")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5288,16 +6159,17 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 222.25 104.14 0)
+		(at 120.65 149.86 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e718b24-37b4-4c31-a0aa-36e010d4e144")
+		(fields_autoplaced yes)
+		(uuid "9fe1a9be-cb82-436a-be2f-6de49fe32662")
 		(property "Reference" "U2"
-			(at 222.25 114.3 0)
+			(at 120.65 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +6177,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 222.25 111.76 0)
+			(at 120.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +6185,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 220.98 106.68 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +6194,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 223.52 109.22 0)
+			(at 121.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +6203,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 222.25 104.14 0)
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,53 +6211,353 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "e59d2892-d12b-4a77-93c9-5ced5abd066f")
-		)
-		(pin "14"
-			(uuid "b4e67678-695e-4729-b48e-309274af7eb6")
-		)
-		(pin "12"
-			(uuid "704f1a3c-9c91-43bf-847c-6d33982429c6")
-		)
-		(pin "8"
-			(uuid "3c72f8ba-469e-40b6-94ec-9ba5440d93d8")
-		)
-		(pin "3"
-			(uuid "453ce63f-ed36-4a9f-9eab-4262e5d4950e")
+		(property "Function" ""
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "9"
-			(uuid "3f3401af-d7e6-4117-a6aa-d57c4cd81bc7")
-		)
-		(pin "2"
-			(uuid "0120697a-f196-4aca-9855-a0243cb8abe0")
-		)
-		(pin "11"
-			(uuid "8d8bd24e-a449-4517-9adf-b118780d2688")
-		)
-		(pin "7"
-			(uuid "232766cb-3706-4a08-90e6-3d56af74a3f1")
-		)
-		(pin "1"
-			(uuid "3da00acb-2018-4913-a6da-93f5a36f7e54")
-		)
-		(pin "10"
-			(uuid "70338e94-d236-4083-828f-58f75ba24233")
+			(uuid "ddb77e7a-4fbc-43d8-b279-1cad8e26a955")
 		)
 		(pin "13"
-			(uuid "6b0e1e2a-b4f2-4b1b-8206-5b93f9419db5")
+			(uuid "8dd2aa2a-b860-4bba-b6e7-4920fe901f46")
 		)
 		(pin "4"
-			(uuid "e196d6b6-82b7-4318-80c0-bcd68e4154fd")
+			(uuid "30cfc9c6-63da-47fe-b6d3-7d4b60302393")
+		)
+		(pin "2"
+			(uuid "a4f27879-7723-46d4-82d7-3d8b1aacaa51")
+		)
+		(pin "7"
+			(uuid "7c62f12c-d348-48fd-9971-07279770448b")
+		)
+		(pin "14"
+			(uuid "539c371e-9d43-4611-9106-3ea13c90e580")
+		)
+		(pin "8"
+			(uuid "198bd1ff-dccb-4498-b963-812212995696")
+		)
+		(pin "10"
+			(uuid "ecf5152c-0559-426e-87ed-2fce4c05338b")
+		)
+		(pin "3"
+			(uuid "aad81f68-7cd3-4ce4-91d1-59031c8bed89")
+		)
+		(pin "1"
+			(uuid "010f0018-342c-4db3-946a-c976bce2bd06")
+		)
+		(pin "11"
+			(uuid "7ed04149-4b8b-4591-aa4f-ca53a7394bc2")
+		)
+		(pin "5"
+			(uuid "88345b04-2c2d-42a8-b2c7-31b363f74304")
+		)
+		(pin "12"
+			(uuid "339d5f97-afc6-4b0f-aee8-0a268309991d")
 		)
 		(pin "6"
-			(uuid "b81cd30c-0f84-4cad-84ce-c71ac80a2ecc")
+			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff60")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U2")
-					(unit 3)
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a043ae36-77fa-4312-a520-2144061c25da")
+		(property "Reference" "R32"
+			(at 100.33 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 100.33 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 100.584 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f17a026e-f131-4454-9ed3-9d6c39c2d6ed")
+		)
+		(pin "1"
+			(uuid "0a20258e-28f5-4866-a38f-bac939f4a944")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b017a707-958f-42b3-9738-48706c1449a8")
+		(property "Reference" "R33"
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 101.6 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 101.854 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f46161a4-cf77-4e42-91fa-67faaa5ebdfc")
+		)
+		(pin "1"
+			(uuid "dbffffce-e0db-4f35-a61c-9c964a873106")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 116.84 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b07f1c02-a8ee-4abd-8c32-25e171c3be83")
+		(property "Reference" "R35"
+			(at 116.84 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 116.84 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 117.094 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13cf2a2c-2506-4ee7-99bf-a16ba34316d6")
+		)
+		(pin "1"
+			(uuid "0f228cd2-a929-46aa-98b0-659d8835ff0d")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 158.75 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9c1da02-7e8a-4205-8d17-d6b2cbb5b181")
+		(property "Reference" "D9"
+			(at 161.29 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 161.29 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ade6472-9c17-408d-9301-be5722d11f4f")
+		)
+		(pin "2"
+			(uuid "c5444304-4bde-49f0-8f8d-4210971721ae")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "D9")
+					(unit 1)
 				)
 			)
 		)
@@ -5399,7 +6571,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94af2552-565f-452a-8c65-f313069b2540")
+		(uuid "bc1a0f19-492b-4be5-a00e-860e745e687e")
 		(property "Reference" "D11"
 			(at 161.29 116.8399 90)
 			(effects
@@ -5480,1021 +6652,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "974e53c4-82f3-4311-9b4f-e883760a682f")
-		(property "Reference" "#PWR029"
-			(at 106.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9704df5d-528a-44d2-9dd6-d749df953b09")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 222.25 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b4dfc8c-8e20-4f90-a3f9-0fa0150b2960")
-		(property "Reference" "R19"
-			(at 222.25 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 222.25 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 222.504 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 222.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2cb64edf-2550-480e-b1da-976d796e1eea")
-		)
-		(pin "1"
-			(uuid "40d67935-50a3-4783-bc90-939e5c3d3326")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 158.75 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bb9a6e4-4d4b-4d6d-a999-8b11d2d8e64c")
-		(property "Reference" "D8"
-			(at 161.29 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 161.29 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f97ee31-3d21-4866-9dd7-709a41354f58")
-		)
-		(pin "2"
-			(uuid "f8c0580f-09d4-4b02-bbdf-464dd2ac71da")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4853818-1203-4960-be29-caee92769837")
-		(property "Reference" "C14"
-			(at 171.45 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 171.45 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 175.26 123.4948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 171.45 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05ed29df-64d5-4474-a006-f14c83303c04")
-		)
-		(pin "2"
-			(uuid "6f3c3f37-06dd-475b-b270-635a852243e2")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a74a1211-1996-42de-90f0-98f226d7342f")
-		(property "Reference" "#PWR019"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc57c15d-9d37-4599-bcef-2bb7ca22fdd0")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 111.76 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a94fc522-c89e-4cfd-a249-4bfc5ad2d0dc")
-		(property "Reference" "R22"
-			(at 238.76 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 238.76 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 242.316 111.506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 241.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 241.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c966dd7-07da-424c-a3f5-9295fe4baa17")
-		)
-		(pin "1"
-			(uuid "95033916-f202-4957-88e4-d22074d39103")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae623fd4-f90e-454a-93c1-16312b58e1f7")
-		(property "Reference" "#PWR030"
-			(at 127 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd3c67bb-e649-4f3f-bc35-e484b8e3981e")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 190.5 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af371f39-2430-4fbc-98a2-e8433f49daac")
-		(property "Reference" "D13"
-			(at 190.5 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 190.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfa7f13d-0cd2-4b5a-ad76-e6f22f86c7bb")
-		)
-		(pin "2"
-			(uuid "05bd8d46-1113-4032-aa03-17e59bf868d1")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 120.65 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b05ee024-6563-45f0-9788-ebca699d8bb2")
-		(property "Reference" "R13"
-			(at 120.65 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 120.65 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 120.904 136.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 120.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2dce792c-599d-499d-858c-8e7115e6ce91")
-		)
-		(pin "1"
-			(uuid "6a463b74-bd94-4991-b68e-c2c5d26fb16d")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 158.75 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b16962ec-0296-41b6-b12f-fc0b86272b02")
-		(property "Reference" "D12"
-			(at 161.29 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 161.29 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 158.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 158.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 158.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 158.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86258b90-c02c-46fd-9245-c117253fdf6c")
-		)
-		(pin "2"
-			(uuid "c7141c38-832a-4348-a12f-36b331da248c")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b375ec64-fef7-4ace-b452-98e2c2d21181")
-		(property "Reference" "#PWR024"
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd6debad-cdc1-4f0e-850c-ed2fa81ea38c")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 236.22 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5615534-5716-46d8-bf5b-5167554ac4f4")
-		(property "Reference" "C15"
-			(at 236.22 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 236.22 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 240.03 103.1748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05c7aeb6-991f-4d2f-8294-537a96f44dbb")
-		)
-		(pin "2"
-			(uuid "5a43614a-ed90-4dda-b1ed-05ac079c214a")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6c0c49f-5eb7-4471-98be-9af19d86a867")
-		(property "Reference" "#PWR032"
-			(at 212.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf48f627-a550-46d1-83d1-b8365903ab5f")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8895f34-b353-48f8-88ad-ec98183a7efd")
-		(property "Reference" "#PWR031"
-			(at 234.95 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1850b1c3-300a-4da5-99c2-0a682f9a5453")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 104.14 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6502,8 +6659,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc980fd9-b5dd-4e44-b198-b23d1ebdc4b2")
-		(property "Reference" "#PWR026"
+		(uuid "bc3593fd-a8e8-4723-960f-3287359df94b")
+		(property "Reference" "#PWR035"
 			(at 104.14 175.26 0)
 			(effects
 				(font
@@ -6553,433 +6710,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 190.5 101.6 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfa18ed7-7739-4fa9-98ca-8c262a77d67c")
-		(property "Reference" "U2"
-			(at 190.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 191.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "8662b4ea-d48f-4ac3-9ce2-9df9aa60bfb0")
-		)
-		(pin "10"
-			(uuid "8252ea1c-ae4c-49f5-aa37-32ce0aef8586")
-		)
-		(pin "9"
-			(uuid "02c9f6df-1de0-44dc-9904-11de8ec4bcd5")
-		)
-		(pin "4"
-			(uuid "7c8585b2-fbc9-407d-bf64-1b88116018b8")
-		)
-		(pin "3"
-			(uuid "09b0fcf9-74a8-48c5-8159-53d052109fac")
-		)
-		(pin "6"
-			(uuid "a0c165a8-4b57-484d-9c33-9f26877b7451")
-		)
-		(pin "12"
-			(uuid "8401b6a1-e5c7-42ce-ba78-fccd081aec99")
-		)
-		(pin "2"
-			(uuid "f9f936e4-2247-4ff1-acda-4a3ddeeb511b")
-		)
-		(pin "5"
-			(uuid "972d36b8-6631-4409-b096-43e6e4408ed5")
-		)
-		(pin "14"
-			(uuid "2ac01f5e-36e1-4f3c-b75b-36b1253050f6")
-		)
-		(pin "11"
-			(uuid "72bb1abc-5de8-408a-8fef-8b58b767d414")
-		)
-		(pin "13"
-			(uuid "5e2397b3-7e91-4d82-811a-603fae2e359d")
-		)
-		(pin "8"
-			(uuid "46eb65c1-3899-42c9-9f39-de1a4e21a17b")
-		)
-		(pin "1"
-			(uuid "862ef906-03e6-4f92-b36b-5a6f63363423")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5b0e5e5-1d23-414f-89ed-932bdfaa3569")
-		(property "Reference" "R18"
-			(at 190.5 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 190.5 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 190.754 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1336d12e-3362-4168-b572-b992dad54204")
-		)
-		(pin "1"
-			(uuid "72d083f5-9366-45a0-acbe-8943d0609e60")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 116.84 76.2 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f166d1-ff5c-421d-ad5a-57c9dd2dea67")
-		(property "Reference" "U1"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 116.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "ddb77e7a-4fbc-43d8-b279-1cad8e26a954")
-		)
-		(pin "13"
-			(uuid "482385b7-116c-47cc-80c8-94401b73e323")
-		)
-		(pin "4"
-			(uuid "30cfc9c6-63da-47fe-b6d3-7d4b60302392")
-		)
-		(pin "2"
-			(uuid "a4f27879-7723-46d4-82d7-3d8b1aacaa50")
-		)
-		(pin "7"
-			(uuid "8180a636-58cc-4e72-b595-9c9bd1da3ade")
-		)
-		(pin "14"
-			(uuid "8a86081b-4c9c-42ae-a8dd-73bcef9ab057")
-		)
-		(pin "8"
-			(uuid "198bd1ff-dccb-4498-b963-812212995695")
-		)
-		(pin "10"
-			(uuid "ecf5152c-0559-426e-87ed-2fce4c05338a")
-		)
-		(pin "3"
-			(uuid "aad81f68-7cd3-4ce4-91d1-59031c8bed88")
-		)
-		(pin "1"
-			(uuid "010f0018-342c-4db3-946a-c976bce2bd05")
-		)
-		(pin "11"
-			(uuid "7ed04149-4b8b-4591-aa4f-ca53a7394bc1")
-		)
-		(pin "5"
-			(uuid "e178231c-b15e-44bc-9642-ab87cd2eb409")
-		)
-		(pin "12"
-			(uuid "952b3a46-fbf5-42cd-98b1-7f60dbda4d4a")
-		)
-		(pin "6"
-			(uuid "269e3c35-2d56-46c4-9141-57eacfe8474a")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 85.09 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbe3d1a1-0c8e-444f-a5e4-83c70347ceb4")
-		(property "Reference" "SW3"
-			(at 85.09 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 85.09 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "LP"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "393db6fd-bf1c-4946-af80-e96a4a0840c2")
-		)
-		(pin "2"
-			(uuid "ca60a2c1-99bd-4b8a-858b-6444d2ff88b9")
-		)
-		(pin "3"
-			(uuid "e3c04d1c-70b8-4699-a9b6-952433555e08")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 116.84 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfa7859e-1cfb-4b1f-af2b-5d55c65aa347")
-		(property "Reference" "R16"
-			(at 116.84 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 116.84 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 117.094 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "13cf2a2c-2506-4ee7-99bf-a16ba34316d6")
-		)
-		(pin "1"
-			(uuid "0f228cd2-a929-46aa-98b0-659d8835ff0d")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R16")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6994,8 +6725,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e41f7ccf-ad63-4cb3-856a-82a99489deb7")
-		(property "Reference" "R5"
+		(uuid "bd1466a2-fe35-4e7f-ab3e-0a7fc236976e")
+		(property "Reference" "R26"
 			(at 45.72 57.15 90)
 			(effects
 				(font
@@ -7047,468 +6778,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 158.75 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7a64eed-db52-4792-b44a-564e5cf66994")
-		(property "Reference" "D9"
-			(at 161.29 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 161.29 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ade6472-9c17-408d-9301-be5722d11f4f")
-		)
-		(pin "2"
-			(uuid "c5444304-4bde-49f0-8f8d-4210971721ae")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 222.25 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea27ecd4-b106-4d44-a7e5-f671d224e66b")
-		(property "Reference" "R21"
-			(at 222.25 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 222.25 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 222.504 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba49b685-fa52-43ce-9d62-48d43cc80884")
-		)
-		(pin "1"
-			(uuid "ba0bf142-bf24-43ab-808e-b6d15a34d4c7")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 120.65 149.86 0)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee0b1468-a429-40fb-a9ba-53571f3c3f7e")
-		(property "Reference" "U1"
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 120.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 119.38 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 121.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 120.65 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "ddb77e7a-4fbc-43d8-b279-1cad8e26a955")
-		)
-		(pin "13"
-			(uuid "8dd2aa2a-b860-4bba-b6e7-4920fe901f46")
-		)
-		(pin "4"
-			(uuid "30cfc9c6-63da-47fe-b6d3-7d4b60302393")
-		)
-		(pin "2"
-			(uuid "a4f27879-7723-46d4-82d7-3d8b1aacaa51")
-		)
-		(pin "7"
-			(uuid "7c62f12c-d348-48fd-9971-07279770448b")
-		)
-		(pin "14"
-			(uuid "539c371e-9d43-4611-9106-3ea13c90e580")
-		)
-		(pin "8"
-			(uuid "198bd1ff-dccb-4498-b963-812212995696")
-		)
-		(pin "10"
-			(uuid "ecf5152c-0559-426e-87ed-2fce4c05338b")
-		)
-		(pin "3"
-			(uuid "aad81f68-7cd3-4ce4-91d1-59031c8bed89")
-		)
-		(pin "1"
-			(uuid "010f0018-342c-4db3-946a-c976bce2bd06")
-		)
-		(pin "11"
-			(uuid "7ed04149-4b8b-4591-aa4f-ca53a7394bc2")
-		)
-		(pin "5"
-			(uuid "88345b04-2c2d-42a8-b2c7-31b363f74304")
-		)
-		(pin "12"
-			(uuid "339d5f97-afc6-4b0f-aee8-0a268309991d")
-		)
-		(pin "6"
-			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff60")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efd41d59-a42a-4083-b33a-8f9e24e0c15c")
-		(property "Reference" "R14"
-			(at 100.33 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 100.33 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 100.584 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "810f2a4f-ff2e-494b-96f8-d44c0ecce51c")
-		)
-		(pin "1"
-			(uuid "3d227ecb-9904-4057-ab9b-2ef79fb4d948")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1742fc6-212f-425e-be79-088cf3ef2273")
-		(property "Reference" "#PWR036"
-			(at 78.74 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d3cf9f8-d7ad-4152-9471-7d4bc9c4a7a6")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4b1f086-c9d4-45e6-b2d4-4ed6736db37b")
-		(property "Reference" "#PWR028"
-			(at 110.49 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "768e682f-0015-471d-b700-cb125b27e282")
-		)
-		(instances
-			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR028")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7523,7 +6793,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f91e902f-77db-4942-a9ed-ecac2eb80f73")
+		(uuid "bdeb0e4b-cb8d-4c9b-bd10-5a813f3cec5d")
 		(property "Reference" "D10"
 			(at 161.29 104.1399 90)
 			(effects
@@ -7604,6 +6874,743 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 120.65 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9c3791-3605-459f-ad13-55043a0fdeed")
+		(property "Reference" "R36"
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 120.65 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 120.904 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dce792c-599d-499d-858c-8e7115e6ce91")
+		)
+		(pin "1"
+			(uuid "6a463b74-bd94-4991-b68e-c2c5d26fb16d")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2137621-bc47-44be-b256-9862a8abae5d")
+		(property "Reference" "#PWR040"
+			(at 212.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf48f627-a550-46d1-83d1-b8365903ab5f")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 190.5 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3be465e-e83c-4491-be45-a18a7c501149")
+		(property "Reference" "D14"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa7f13d-0cd2-4b5a-ad76-e6f22f86c7bb")
+		)
+		(pin "2"
+			(uuid "05bd8d46-1113-4032-aa03-17e59bf868d1")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 111.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d470863d-1204-4608-ad3f-678af3254aed")
+		(property "Reference" "R42"
+			(at 238.76 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 238.76 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 242.316 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 241.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 241.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c966dd7-07da-424c-a3f5-9295fe4baa17")
+		)
+		(pin "1"
+			(uuid "95033916-f202-4957-88e4-d22074d39103")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 158.75 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7fe08d8-bdab-4385-ba05-76c4b1a7b001")
+		(property "Reference" "D8"
+			(at 161.29 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 161.29 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f97ee31-3d21-4866-9dd7-709a41354f58")
+		)
+		(pin "2"
+			(uuid "f8c0580f-09d4-4b02-bbdf-464dd2ac71da")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 52.07 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d81d7119-9d45-4e13-82bc-1ed0e2c33e7b")
+		(property "Reference" "R27"
+			(at 54.61 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 54.61 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 51.054 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99c3915c-509b-4bfe-ac91-c875bdde1ff3")
+		)
+		(pin "1"
+			(uuid "daac31a1-c0b9-4107-a2ca-b5b3190a06c3")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 190.5 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d953ebb0-0052-4c2a-8199-0eb5dda74af2")
+		(property "Reference" "U2"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "8662b4ea-d48f-4ac3-9ce2-9df9aa60bfb0")
+		)
+		(pin "10"
+			(uuid "8252ea1c-ae4c-49f5-aa37-32ce0aef8586")
+		)
+		(pin "9"
+			(uuid "02c9f6df-1de0-44dc-9904-11de8ec4bcd5")
+		)
+		(pin "4"
+			(uuid "7c8585b2-fbc9-407d-bf64-1b88116018b8")
+		)
+		(pin "3"
+			(uuid "09b0fcf9-74a8-48c5-8159-53d052109fac")
+		)
+		(pin "6"
+			(uuid "a0c165a8-4b57-484d-9c33-9f26877b7451")
+		)
+		(pin "12"
+			(uuid "8401b6a1-e5c7-42ce-ba78-fccd081aec99")
+		)
+		(pin "2"
+			(uuid "f9f936e4-2247-4ff1-acda-4a3ddeeb511b")
+		)
+		(pin "5"
+			(uuid "972d36b8-6631-4409-b096-43e6e4408ed5")
+		)
+		(pin "14"
+			(uuid "2ac01f5e-36e1-4f3c-b75b-36b1253050f6")
+		)
+		(pin "11"
+			(uuid "72bb1abc-5de8-408a-8fef-8b58b767d414")
+		)
+		(pin "13"
+			(uuid "5e2397b3-7e91-4d82-811a-603fae2e359d")
+		)
+		(pin "8"
+			(uuid "46eb65c1-3899-42c9-9f39-de1a4e21a17b")
+		)
+		(pin "1"
+			(uuid "862ef906-03e6-4f92-b36b-5a6f63363423")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 135.89 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0ab2ac9-1bdc-4c16-b859-95a8f1eb0ca3")
+		(property "Reference" "SW3"
+			(at 135.89 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 135.89 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "HP"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7ae39bd-f6c1-4b49-a492-f47dc7dfd0dc")
+		)
+		(pin "2"
+			(uuid "da8e56d9-cddb-4ae4-918d-4844055c63e1")
+		)
+		(pin "3"
+			(uuid "4a6c2982-2e3f-4b4a-8afb-d96a5dd5cb18")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 158.75 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eabacacf-f9d5-4325-a8d4-de660b79bf29")
+		(property "Reference" "D12"
+			(at 161.29 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 161.29 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 158.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 158.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 158.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 158.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86258b90-c02c-46fd-9245-c117253fdf6c")
+		)
+		(pin "2"
+			(uuid "c7141c38-832a-4348-a12f-36b331da248c")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 264.16 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7611,8 +7618,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb6c2bd4-cfcf-4563-846d-7761b286ed53")
-		(property "Reference" "R23"
+		(uuid "ec9b87c6-62c8-4197-b968-974fa9b91a8a")
+		(property "Reference" "R43"
 			(at 264.16 95.25 90)
 			(effects
 				(font
@@ -7664,7 +7671,93 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R23")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 190.5 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed582972-aad3-4097-9882-511b92407601")
+		(property "Reference" "D13"
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f64909d1-9405-4678-808b-42d30b920028")
+		)
+		(pin "2"
+			(uuid "eaeb3e40-54ea-491f-b0f0-9068abf7bd2c")
+		)
+		(instances
+			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7672,16 +7765,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 208.28 101.6 90)
+		(at 222.25 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd900c60-55d4-4aa4-942f-e31e57208c39")
-		(property "Reference" "R20"
-			(at 208.28 95.25 90)
+		(uuid "f4385c50-e2e3-45e1-8add-8144959950d0")
+		(property "Reference" "R40"
+			(at 222.25 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +7782,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 208.28 97.79 90)
+			(at 222.25 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7790,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 208.534 100.584 90)
+			(at 222.504 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 101.6 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +7808,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 208.28 101.6 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,58 +7817,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "25b20fd8-977e-49b0-870a-b6900c54317f")
+			(uuid "2cb64edf-2550-480e-b1da-976d796e1eea")
 		)
 		(pin "1"
-			(uuid "974ff9b7-3c30-45e4-9c4a-b9bab975595c")
+			(uuid "40d67935-50a3-4783-bc90-939e5c3d3326")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R20")
+					(reference "R40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 64.77 60.96 0)
-		(mirror x)
+		(lib_id "Device:R_US")
+		(at 190.5 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fea552e2-65db-41e4-85fc-d07abc17844f")
-		(property "Reference" "U1"
-			(at 64.77 50.8 0)
+		(uuid "f5361aa7-35f1-4149-9bb9-eda6a11462a2")
+		(property "Reference" "R38"
+			(at 190.5 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TL074"
-			(at 64.77 53.34 0)
+		(property "Value" "100k"
+			(at 190.5 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 63.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 66.04 66.04 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 190.754 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,8 +7866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 64.77 60.96 0)
+		(property "Datasheet" "~"
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,52 +7875,25 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "ddb77e7a-4fbc-43d8-b279-1cad8e26a956")
-		)
-		(pin "13"
-			(uuid "482385b7-116c-47cc-80c8-94401b73e325")
-		)
-		(pin "4"
-			(uuid "30cfc9c6-63da-47fe-b6d3-7d4b60302394")
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a809da39-ff2c-4c7a-8db1-1399fc644442")
-		)
-		(pin "7"
-			(uuid "7c62f12c-d348-48fd-9971-07279770448c")
-		)
-		(pin "14"
-			(uuid "8a86081b-4c9c-42ae-a8dd-73bcef9ab059")
-		)
-		(pin "8"
-			(uuid "198bd1ff-dccb-4498-b963-812212995697")
-		)
-		(pin "10"
-			(uuid "ecf5152c-0559-426e-87ed-2fce4c05338c")
-		)
-		(pin "3"
-			(uuid "08171eec-c28f-4890-880c-0e3b74bbf0ee")
+			(uuid "1336d12e-3362-4168-b572-b992dad54204")
 		)
 		(pin "1"
-			(uuid "2c4c9e5d-ac17-406f-a77f-2f2a9515f1c1")
-		)
-		(pin "11"
-			(uuid "7ed04149-4b8b-4591-aa4f-ca53a7394bc3")
-		)
-		(pin "5"
-			(uuid "88345b04-2c2d-42a8-b2c7-31b363f74305")
-		)
-		(pin "12"
-			(uuid "952b3a46-fbf5-42cd-98b1-7f60dbda4d4c")
-		)
-		(pin "6"
-			(uuid "433fff8d-1c0e-4b32-a94b-c858e2baff61")
+			(uuid "72d083f5-9366-45a0-acbe-8943d0609e60")
 		)
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U1")
+					(reference "R38")
 					(unit 1)
 				)
 			)
