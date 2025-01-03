@@ -3528,7 +3528,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 250.19 101.6 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3631,7 +3631,7 @@
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U3")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -4677,13 +4677,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 222.25 104.14 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4a9ea001-8b0d-4015-b1bf-5e9dd62b8632")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 222.25 114.3 0)
 			(effects
 				(font
@@ -4779,8 +4779,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U3")
-					(unit 2)
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)
@@ -4796,7 +4796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d0c64e5-2736-48a3-95b2-6f495a21b12a")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -4892,7 +4892,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6168,7 +6168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fe1a9be-cb82-436a-be2f-6de49fe32662")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 120.65 139.7 0)
 			(effects
 				(font
@@ -6264,7 +6264,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U2")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -7338,7 +7338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d953ebb0-0052-4c2a-8199-0eb5dda74af2")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 190.5 91.44 0)
 			(effects
 				(font
@@ -7434,7 +7434,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "U2")
+					(reference "U3")
 					(unit 3)
 				)
 			)
