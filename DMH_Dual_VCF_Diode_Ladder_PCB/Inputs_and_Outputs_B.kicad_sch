@@ -1942,6 +1942,18 @@
 		)
 		(uuid 8d7658d2-8a9e-4855-93a5-539448e5cc75)
 	)
+	(rectangle
+		(start 132.08 62.23)
+		(end 175.26 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91201d5f-6454-4fa6-bed3-9657793a46d0)
+	)
 	(text "Connectors PCB"
 		(exclude_from_sim no)
 		(at 110.998 151.13 0)
@@ -1951,6 +1963,16 @@
 			)
 		)
 		(uuid "7b6077b0-2ff6-47e0-81d3-e9ca9dff7069")
+	)
+	(text "Connectors PCB"
+		(exclude_from_sim no)
+		(at 143.764 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3117d3e-26c0-49af-a4db-301b5983e44e")
 	)
 	(hierarchical_label "Input TN"
 		(shape input)
@@ -2684,7 +2706,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d08c8cb1-e2d6-46d4-884f-35eb0dce069d")

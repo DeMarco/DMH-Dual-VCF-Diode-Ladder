@@ -2073,6 +2073,28 @@
 		)
 		(uuid 8d7658d2-8a9e-4855-93a5-539448e5cc75)
 	)
+	(rectangle
+		(start 142.24 25.4)
+		(end 170.18 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fcfd1709-f715-4f13-ad72-e8818ffdc504)
+	)
+	(text "Connectors PCB"
+		(exclude_from_sim no)
+		(at 162.052 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45d69ffa-93bb-4660-8d05-d237c97e38ce")
+	)
 	(text "Connectors PCB"
 		(exclude_from_sim no)
 		(at 110.998 151.13 0)
@@ -2632,7 +2654,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89bc0cf8-cc89-4b84-90c0-6b2a2f0f824f")
