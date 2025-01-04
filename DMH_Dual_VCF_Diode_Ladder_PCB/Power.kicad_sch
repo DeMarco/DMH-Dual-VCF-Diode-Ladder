@@ -4292,6 +4292,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "306f5f76-6b96-41a1-89a3-f30e7db80a51")
 		)
@@ -4696,7 +4704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2230deee-55cc-4df0-ad81-88eeeb35de83")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 152.4 167.64 0)
 			(effects
 				(font
@@ -4737,6 +4745,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -4784,7 +4800,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "U7")
+					(reference "U2")
 					(unit 4)
 				)
 			)
@@ -6397,6 +6413,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 142.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "83455f41-d17a-434a-9277-4afe43148cd2")
 		)
@@ -6713,6 +6737,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d4484286-3498-40ec-a789-422136b79251")
 		)
@@ -6817,6 +6849,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -6988,13 +7028,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 101.6 177.8 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e43f3c99-83f3-4ad1-891b-58bb942dd99e")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -7090,8 +7130,8 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "U7")
-					(unit 3)
+					(reference "U1")
+					(unit 1)
 				)
 			)
 		)
@@ -7289,6 +7329,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

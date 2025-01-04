@@ -4742,13 +4742,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 250.19 101.6 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "776d820e-8164-4b35-8f3b-592603b59198")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 250.19 111.76 0)
 			(effects
 				(font
@@ -4844,8 +4844,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/5770dcd3-eb9e-472f-b743-1e3eb22ed082"
-					(reference "U5")
-					(unit 2)
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)
@@ -5306,13 +5306,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 222.25 104.14 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8e718b24-37b4-4c31-a0aa-36e010d4e144")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 222.25 114.3 0)
 			(effects
 				(font
@@ -5408,8 +5408,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/5770dcd3-eb9e-472f-b743-1e3eb22ed082"
-					(reference "U6")
-					(unit 1)
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -6767,14 +6767,14 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 116.84 76.2 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6f166d1-ff5c-421d-ad5a-57c9dd2dea67")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -6870,8 +6870,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/5770dcd3-eb9e-472f-b743-1e3eb22ed082"
-					(reference "U5")
-					(unit 1)
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
@@ -7253,7 +7253,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 120.65 149.86 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7357,7 +7357,7 @@
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/5770dcd3-eb9e-472f-b743-1e3eb22ed082"
 					(reference "U6")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -7790,14 +7790,14 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 64.77 60.96 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea552e2-65db-41e4-85fc-d07abc17844f")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -7893,8 +7893,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/5770dcd3-eb9e-472f-b743-1e3eb22ed082"
-					(reference "U3")
-					(unit 4)
+					(reference "U6")
+					(unit 1)
 				)
 			)
 		)

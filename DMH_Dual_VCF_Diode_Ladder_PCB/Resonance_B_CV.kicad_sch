@@ -2547,13 +2547,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 95.25 88.9 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0b9c9058-383f-4215-9f95-76ecb10194f5")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 95.25 99.06 0)
 			(effects
 				(font
@@ -2649,8 +2649,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f0045393-e1d0-4de8-baba-b9053cd8a11d"
-					(reference "U6")
-					(unit 3)
+					(reference "U2")
+					(unit 1)
 				)
 			)
 		)
@@ -3361,7 +3361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66f9ec7a-ffe5-4338-8d3f-c6f215d28e3b")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -3457,7 +3457,7 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f0045393-e1d0-4de8-baba-b9053cd8a11d"
-					(reference "U7")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -4425,13 +4425,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 138.43 127 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bf7ac334-f6bd-405f-9036-db27088f40a5")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 138.43 137.16 0)
 			(effects
 				(font
@@ -4527,8 +4527,8 @@
 		(instances
 			(project "DMH_Dual_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f0045393-e1d0-4de8-baba-b9053cd8a11d"
-					(reference "U6")
-					(unit 4)
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
