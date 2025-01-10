@@ -4078,16 +4078,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 135.89 86.36 180)
+		(at 135.89 86.36 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d467f33-3e2c-4bc7-9437-d25a42e9e166")
 		(property "Reference" "SW5"
-			(at 135.89 77.47 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 135.89 80.01 0)
+			(at 135.89 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 78.74 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5004,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 135.89 99.06 180)
+		(at 135.89 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5012,7 +5013,7 @@
 		(dnp no)
 		(uuid "8988cb1c-e99c-41a1-93ee-3b2151d8b80c")
 		(property "Reference" "SW6"
-			(at 135.89 104.394 0)
+			(at 135.89 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5021,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 135.89 106.934 0)
+			(at 135.89 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 91.44 0)
+			(at 135.89 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +6879,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 85.09 60.96 180)
+		(at 85.09 60.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6886,7 +6888,7 @@
 		(dnp no)
 		(uuid "dbe3d1a1-0c8e-444f-a5e4-83c70347ceb4")
 		(property "Reference" "SW4"
-			(at 85.09 66.294 0)
+			(at 85.09 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6896,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 85.09 68.834 0)
+			(at 85.09 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 53.34 0)
+			(at 85.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
